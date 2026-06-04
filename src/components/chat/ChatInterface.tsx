@@ -1,32 +1,29 @@
 "use client";
 
-import { useEffect } from "react";
-import { useChat } from "@/lib/claude/useChat";
+import { useEffect, useRef } from "react";
+import { useChat, Message } from "@/lib/claude/useChat";
 import ChatWindow from "./ChatWindow";
 import ChatInput from "./ChatInput";
 
 interface Props {
   projectId: string;
   stepNumber: number;
-  initialMessages?: Array<{ role: "user" | "assistant"; content: string }>;
-  welcomeMessage?: string;
+  initialMessages?: Message[];
 }
 
-export default function ChatInterface({ projectId, stepNumber, initialMessages = [], welcomeMessage }: Props) {
-  const { messages, streaming, error, sendMessage } = useChat(projectId, stepNumber);
+export default function ChatInterface({ projectId, stepNumber, initialMessages = [] }: Props) {
+  const { messages, streaming, error, sendMessage, setMessages } = useChat(projectId, stepNumber);
+  const initialized = useRef(false);
 
-  /* Charge les messages existants au montage */
+  /* Charge les messages existants depuis la DB au premier rendu */
   useEffect(() => {
+    if (initialized.current) return;
+    initialized.current = true;
+
     if (initialMessages.length > 0) {
-      /* Les messages initiaux sont déjà chargés via props — le hook les intègre */
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  /* Message de bienvenue automatique si conversation vide */
-  useEffect(() => {
-    if (messages.length === 0 && welcomeMessage && !streaming) {
-      /* Déclenche l'assistant pour ouvrir la conversation */
+      setMessages(initialMessages);
+    } else {
+      /* Conversation vide : l'assistant ouvre avec la première question */
       sendMessage("__init__");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

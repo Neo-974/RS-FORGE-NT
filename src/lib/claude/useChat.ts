@@ -79,5 +79,5 @@ export function useChat(projectId: string, stepNumber: number) {
     }
   }, [messages, projectId, stepNumber, streaming]);
 
-  return { messages, streaming, error, sendMessage };
+  return { messages, setMessages, streaming, error, sendMessage };
 }

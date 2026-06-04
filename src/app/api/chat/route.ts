@@ -46,12 +46,20 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Projet introuvable." }, { status: 404 });
     }
 
+    /* Filtre le signal __init__ de l'historique avant d'envoyer à Claude */
+    const cleanMessages = messages.map((m: { role: string; content: string }) =>
+      m.role === "user" && m.content === "__init__"
+        ? { role: "user", content: "Bonjour, je souhaite démarrer cette étape." }
+        : m
+    );
+
     const systemPrompt = getSystemPrompt(stepNumber);
 
     /* Activation du web search uniquement pour l'étape 2 (analyse d'unicité) */
     const useWebSearch = stepNumber === 2;
-    const tools: Anthropic.Tool[] = useWebSearch
-      ? [{ type: "web_search_20250305" as const, name: "web_search", max_uses: 5 }]
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const tools: any[] = useWebSearch
+      ? [{ type: "web_search_20250305", name: "web_search", max_uses: 5 }]
       : [];
 
     /* Appel Claude API avec streaming */
@@ -59,13 +67,14 @@ export async function POST(request: NextRequest) {
       model: "claude-sonnet-4-20250514",
       max_tokens: 4096,
       system: systemPrompt,
-      messages,
+      messages: cleanMessages,
       ...(tools.length > 0 ? { tools } : {}),
     });
 
-    /* Sauvegarde du dernier message utilisateur en base */
+    /* Sauvegarde du dernier message utilisateur en base (sauf le signal __init__) */
     const lastUserMessage = [...messages].reverse().find((m: { role: string }) => m.role === "user");
-    if (lastUserMessage) {
+    const isInit = typeof lastUserMessage?.content === "string" && lastUserMessage.content === "__init__";
+    if (lastUserMessage && !isInit) {
       await supabase.from("conversations").insert({
         project_id: projectId,
         step_number: stepNumber,
