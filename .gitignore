@@ -38,3 +38,6 @@ next-env.d.ts
 # Env local
 .env.local
 .env*.local
+
+# Claude Code — paramètres locaux (secrets personnels)
+.claude/settings.local.json
