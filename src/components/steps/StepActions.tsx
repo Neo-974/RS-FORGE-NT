@@ -48,7 +48,7 @@ export default function StepActions({ projectId, stepNumber, isComplete, isLastS
         .update({ status: "complete" })
         .eq("id", projectId);
 
-      router.push(`/projet/${projectId}/etape/7`);
+      router.push(`/projet/${projectId}/documents`);
     }
 
     router.refresh();
