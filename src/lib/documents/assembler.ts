@@ -23,9 +23,6 @@ export async function assembleProjectData(
     supabase.from("project_steps").select("step_number,content").eq("project_id", projectId),
   ]);
 
-  /* Enrichit les compétences avec le numéro d'activité */
-  const activitiesMap = new Map((activities ?? []).map((a) => [a.activity_number, a]));
-
   /* Résout activity_id → activity_number via les compétences */
   const { data: activitiesById } = await supabase
     .from("referentiel_activites")
@@ -42,7 +39,6 @@ export async function assembleProjectData(
   }));
 
   /* Résout competence_id → code + titre pour les évaluations */
-  const competencesMap = new Map((competences ?? []).map((c) => [c.competence_code, c]));
   const { data: competencesById } = await supabase
     .from("referentiel_competences")
     .select("id,competence_code,competence_title")

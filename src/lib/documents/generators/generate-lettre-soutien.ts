@@ -1,8 +1,8 @@
 import {
-  Document, Paragraph, TextRun, AlignmentType, HeadingLevel, Packer,
+  Document, Paragraph, TextRun, AlignmentType, Packer,
 } from "docx";
 import { ProjectData } from "../types";
-import { PAGE_MARGINS, COLOR_DARK } from "../styles";
+import { PAGE_MARGINS } from "../styles";
 
 export async function generateLettreSoutien(data: ProjectData): Promise<Buffer> {
   const doc = new Document({
