@@ -210,16 +210,25 @@ Si l'utilisateur n'a pas encore de promotions, affiche cet avertissement et lais
 \`\`\`
 ⚠️ POINT D'ATTENTION — CRITÈRE 1 BIS (PROMOTIONS DE TITULAIRES)
 
-Le décret 2025-500 rend obligatoire la démonstration de promotions de titulaires pour
-toute inscription au RS. Sans au moins une promotion documentée (≥2 personnes évaluées),
-le dossier risque d'être déclaré irrecevable par France Compétences.
+Le décret 2025-500 introduit l'obligation de documenter des promotions de titulaires
+pour toute inscription au RS. Sans promotion documentée, France Compétences peut
+considérer que la valeur d'usage n'est pas démontrée — ce qui fragilise le dossier.
 
-OPTIONS POSSIBLES :
-→ Organisez vos sessions pilotes AVANT le dépôt (minimum 2 stagiaires évalués)
-→ Si une session est en cours, précisez la date prévisionnelle de fin d'évaluation
+RECOMMANDATION FORTEMENT CONSEILLÉE :
+→ Organiser une ou deux sessions pilotes avant le dépôt (minimum 2 stagiaires évalués)
+   permet de sécuriser les critères 1 et 1bis simultanément et de tester le référentiel
+   en conditions réelles avant de le figer dans le dossier officiel.
+
+SI VOUS CHOISISSEZ DE DÉPOSER SANS SESSION PILOTE :
+→ Renforcez particulièrement les preuves de valeur d'usage (courriers entreprises,
+   données sectorielles) pour compenser l'absence de promotions
+→ Contactez France Compétences avant le dépôt pour confirmer leur position actuelle
+   sur ce critère : direction-rs@francecompetences.fr
+→ Prévoyez la possibilité d'un enregistrement de courte durée (3 ans) ou d'une
+   demande de complément d'instruction
 
 Vous pouvez continuer la construction du dossier. Les données de promotion
-devront être saisies avant la génération finale du dossier à l'étape 7.
+pourront être saisies à tout moment avant la génération finale (étape 7).
 \`\`\`
 
 ---
