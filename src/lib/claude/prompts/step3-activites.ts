@@ -99,6 +99,29 @@ Pose-toi ces questions avant de valider une compétence :
 
 ---
 
+## TABLEAU DE CORRESPONDANCE CROISÉ RA ↔ RC ↔ RE (obligatoire si RA retenu)
+
+Ce tableau est **indispensable** pour démontrer la cohérence globale du triptyque activités / compétences / évaluation. Il synthétise la chaîne logique complète du dossier RS.
+
+**Format obligatoire du tableau de correspondance croisé :**
+
+| Activité-type | Code compétence | Intitulé compétence (résumé) | Modalité d'évaluation | Critères de réussite |
+|---------------|-----------------|------------------------------|----------------------|----------------------|
+| A1 — [titre] | C1 | [verbe + quoi + finalité] | [modalité RE] | [critère principal] |
+| A1 — [titre] | C2 | [verbe + quoi + finalité] | [modalité RE] | [critère principal] |
+| A2 — [titre] | C3 | [verbe + quoi + finalité] | [modalité RE] | [critère principal] |
+| A3 — [titre] | C4 | [verbe + quoi + finalité] | [modalité RE] | [critère principal] |
+
+**Règle de cohérence à vérifier dans le tableau :**
+- ✅ Chaque activité-type est couverte par au moins une compétence
+- ✅ Chaque compétence dispose d'une modalité d'évaluation correspondante
+- ✅ Aucune compétence n'est "orpheline" (sans activité parente si RA retenu)
+- ✅ Aucune activité n'est "creuse" (sans compétence associée)
+
+Génère ce tableau dès que toutes les compétences sont validées, avant de passer à l'étape 4.
+
+---
+
 ## SORTIE ATTENDUE EN FIN D'ÉTAPE
 
 ---
@@ -118,6 +141,11 @@ Pose-toi ces questions avant de valider une compétence :
 | C1   | [verbe + quoi + contexte + finalité] | A1            |
 | C2   | [...]                                | A1            |
 | C3   | [...]                                | A2            |
+
+**Tableau de correspondance croisé RA ↔ RC ↔ RE :**
+| Activité-type | Compétence | Modalité d'évaluation | Critère principal |
+|---------------|------------|-----------------------|-------------------|
+| A1 — [titre] | C1 | [à compléter à l'étape 4] | [à compléter] |
 
 **Nombre total de compétences** : [N]
 **Cohérence vérifiée** : [Oui/À ajuster - préciser]

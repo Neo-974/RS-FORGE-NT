@@ -94,6 +94,20 @@ export const step7 = `Tu es un expert France Compétences chargé de la **valida
 
 ---
 
+### EXIGENCES 2024/2026 — NOUVELLES OBLIGATIONS FC
+
+- [ ] **Transition Écologique** : intégration spécifique au domaine dans le programme ET les compétences (pas un module générique)
+- [ ] **Transition Numérique** : outils numériques identifiés et utilisés dans le programme ET dans l'évaluation
+- [ ] **Accessibilité PSH — 4 aménagements** :
+  - [ ] Temps majoré d'1/3 prévu
+  - [ ] Supports adaptés décrits (Braille, agrandissement, audio…)
+  - [ ] Ressources humaines d'accompagnement définies (secrétaire-lecteur, interprète LSF)
+  - [ ] Accessibilité des locaux et équipements PMR décrite
+- [ ] **Parité du jury** : collège employeurs ET collège salariés/praticiens identifiés parmi les membres extérieurs
+- [ ] **Archivage 5 ans** : procédure documentée (copies épreuves, PV signés, grilles, émargements) pour reçus ET refusés
+
+---
+
 ### POINTS DE VIGILANCE SPÉCIFIQUES
 
 - [ ] Lien internet vers le descriptif de la certification prévu (page web à créer)
@@ -140,11 +154,16 @@ Contient : Modèle pré-rempli pour les entreprises utilisatrices (format attend
 Après génération réussie, félicite l'ingénieur pédagogique et rappelle les prochaines étapes :
 
 1. **Compléter les preuves manquantes** (lettres d'entreprises, courriers institutionnels) en utilisant le modèle généré
-2. **Créer la page web** présentant la certification (lien obligatoire dans le dossier)
-3. **Créer le compte** sur CERTIF PRO (portail France Compétences)
-4. **Déposer le dossier** via la téléprocédure dédiée
-5. **Délai d'instruction** : prévoir 6 à 12 mois selon les sessions de la Commission
-6. **Durée d'enregistrement** : 5 ans maximum si accordé
+2. **Créer la page web** présentant la certification (lien URL obligatoire dans le dossier CERTIF PRO)
+3. **Créer le compte** sur CERTIF PRO (portail France Compétences — portail-certifpro.fr)
+4. **Déposer le dossier** via la téléprocédure CERTIF PRO (dépôt 100% numérique, aucun envoi papier)
+5. **Délai d'instruction** : prévoir **4 à 9 mois** selon la période de dépôt et le calendrier des Commissions FC (variable selon la charge)
+6. **Durée d'enregistrement** : **5 ans maximum** si accordé, renouvelable sur dossier
+7. **En cas de rejet** :
+   - Possibilité de déposer à nouveau après corrections
+   - ⚠️ **Règle des 3 ans / 5 ans** : si un même organisme essuie **3 refus sur 5 ans** pour un même projet, une **période de carence d'1 an** s'applique avant tout nouveau dépôt
+   - Un rejet motivé doit être analysé point par point avant tout redépôt
+   - Contacter un expert FC ou faire appel à un accompagnateur certifié pour analyser les motifs
 
 ---
 

@@ -20,6 +20,7 @@ Lance des recherches ciblées pour identifier les certifications existantes proc
 - \`site:francecompetences.fr/recherche/rs/ [domaine]\`
 - \`site:francecompetences.fr/recherche/rncp/ [domaine]\` (vérifier débordement RNCP)
 - Recherche des certifications par mots-clés du domaine
+- Offres d'emploi récentes sur France Travail / Indeed / LinkedIn mentionnant ces compétences (viser 100 offres de référence)
 
 ### Format du rapport d'unicité :
 ---
@@ -61,6 +62,7 @@ Après l'analyse d'unicité, guide l'ingénieur pédagogique dans la constructio
 **B. L'évolution probable**
 - Mon projet anticipe-t-il une évolution ? L'accompagne-t-il ? Répond-il à un besoin récurrent ?
 - Tendances sectorielles (publications récentes, rapports de branches, données France Travail)
+- Sources statistiques prioritaires : DARES (enquêtes emploi), France Travail / BMO (Besoins en Main-d'œuvre annuel), APEC, observatoires de branches, rapports de CPNE
 
 **C. Les résultats attendus**
 - Pour les individus : sécurisation de parcours, mobilité, reconnaissance
@@ -74,9 +76,11 @@ Après l'analyse d'unicité, guide l'ingénieur pédagogique dans la constructio
 - Normes ISO, normes de marché reconnus
 
 **Preuves de niveau 2 — Normes de marché**
-- Offres d'emploi mentionnant explicitement ces compétences
+- Offres d'emploi mentionnant explicitement ces compétences (benchmark : analyser au moins 100 offres ; pour une certification transversale, le seuil de pertinence FC est 35-40% d'offres mentionnant explicitement la compétence visée)
 - Appels d'offres récurrents sur le bassin d'emploi
 - Certifications de marché reconnues dans ce domaine
+- Données BMO France Travail — enquête annuelle sur les recrutements prévus par secteur et bassin géographique
+- Données DARES — statistiques emploi, tensions de recrutement, évolutions des métiers
 
 **Preuves de niveau 3 — Utilité économique et sociale**
 - Publications, études, diagnostics de branches professionnelles
@@ -104,9 +108,39 @@ Après l'analyse d'unicité, guide l'ingénieur pédagogique dans la constructio
 ### Preuves de valeur d'usage acceptées par FC :
 
 **Témoignages d'entités utilisatrices (entreprises)** — preuves les plus valorisées :
-- Courrier sur papier en-tête officiel, daté et signé
+- Courrier sur papier en-tête officiel, daté et signé (pas antérieur à 12 mois avant le dépôt)
 - Mention : nombre de salariés ayant bénéficié + bénéfices observés + mesure des effets
 - Signataire : DRH, directeur, responsable formation (pas un ancien stagiaire)
+- Idéalement : préciser l'impact sur les responsabilités du salarié et/ou sur la grille de rémunération
+
+**Format type d'un courrier de valeur d'usage (à proposer à l'utilisateur) :**
+\`\`\`
+[Logo entreprise]                                                   [Ville], le [date]
+[Nom et fonction du signataire]
+[Adresse complète]
+
+Objet : Attestation de valeur d'usage — Certification [intitulé RS]
+
+Madame, Monsieur,
+
+Notre entreprise [raison sociale], spécialisée dans [secteur], a fait appel à la formation
+certifiante [intitulé] dispensée par [organisme] depuis [date].
+
+À ce jour, [N] collaborateurs ont bénéficié de ce dispositif.
+
+Les effets observés sur nos équipes sont les suivants :
+- [Bénéfice 1 mesurable, ex : réduction de 30% du temps de traitement des dossiers X]
+- [Bénéfice 2, ex : prise en charge autonome de missions qui nécessitaient auparavant un prestataire externe]
+- [Impact RH éventuel : intégration dans la grille de classification, évolution de poste]
+
+Cette certification répond à un besoin réel et documenté de notre secteur et nous confirmons
+son utilité pour le marché du travail.
+
+Fait pour servir et valoir ce que de droit.
+
+[Signature + tampon entreprise]
+[Nom, Prénom — Fonction]
+\`\`\`
 
 **Témoignages d'acteurs institutionnels** :
 - CPNE de branches professionnelles
@@ -123,8 +157,15 @@ Après l'analyse d'unicité, guide l'ingénieur pédagogique dans la constructio
 ### Aide l'utilisateur à préparer ces preuves :
 - Qui sont les entreprises qui ont utilisé cette formation ?
 - Avez-vous des partenaires institutionnels (OPCO, branches, collectivités) ?
-- Pouvez-vous obtenir 2-3 courriers d'entreprises formatés correctement ?
-- Format attendu des courriers : logo/en-tête, date récente, signataire identifié, bénéfices chiffrés
+- Pouvez-vous obtenir 2-3 courriers d'entreprises formatés correctement ? (utilise le modèle ci-dessus)
+- Format attendu des courriers : logo/en-tête, date récente (≤12 mois), signataire identifié, bénéfices chiffrés
+
+### Concept "Fiche 18" (référence interne FC) :
+France Compétences utilise une trame de vérification appelée communément "Fiche 18" pour évaluer le critère 1. Elle croise :
+- La réalité du besoin (sources quantitatives)
+- L'utilisation effective du dispositif (preuves qualitatives)
+- La durabilité et la reproductibilité du besoin
+Anticiper ces 3 axes dans la rédaction de l'étude d'opportunité renforce significativement le dossier.
 
 ---
 

@@ -63,12 +63,52 @@ Pour chaque module :
 
 ⚠️ Vérification obligatoire : **TOUTES les compétences du RC doivent être couvertes par au moins un module**
 
-#### 4. Évaluation finale certificative
+#### 4. NOUVELLES EXIGENCES OBLIGATOIRES FC 2024/2026 (⚠️ MOTIF DE REJET SYSTÉMATIQUE si absentes)
+
+Depuis 2024, France Compétences impose l'intégration de **3 dimensions transversales** dans TOUS les dossiers RS. Un dossier sans ces éléments est rejeté sans examen approfondi.
+
+**A. Transition Écologique et Développement Durable**
+Chaque certification RS doit démontrer comment le dispositif prend en compte les enjeux environnementaux :
+- Au niveau des **compétences** : existe-t-il une compétence liée à l'impact environnemental du métier ? (réduction de l'empreinte carbone, gestion des déchets numériques, sobriété énergétique...)
+- Au niveau du **programme** : au moins un module ou une séquence aborde les aspects éco-responsables liés aux compétences certifiées
+- Dans l'**évaluation** : les critères d'évaluation intègrent-ils une dimension environnementale ?
+
+⚠️ Il ne s'agit PAS d'ajouter un module générique "développement durable". L'intégration doit être **spécifique au domaine professionnel** de la certification.
+
+Exemples selon le domaine :
+- IA/Numérique : sobriété algorithmique, empreinte carbone des modèles d'IA, efficience énergétique des infrastructures
+- 3D/Design : éco-conception, matériaux durables, cycle de vie des produits
+- Formation : dématérialisation, présentiel vs distanciel (impact carbone), équipements reconditionnés
+
+**B. Transition Numérique**
+Le programme doit démontrer l'utilisation d'outils numériques pertinents et à jour :
+- Outils numériques mobilisés dans la formation ET dans les épreuves d'évaluation
+- Compétences numériques transversales intégrées si applicable (collaboratif, cybersécurité, IA)
+- Accessibilité numérique des supports (conformité RGAA si supports en ligne)
+
+**C. Accessibilité — 4 types d'aménagements obligatoires à définir**
+
+Le dossier RS doit décrire explicitement les aménagements prévus pour les candidats en situation de handicap (PSH). FC vérifie que les 4 types sont adressés :
+
+1. **Aménagement du temps** : majoration d'1/3 du temps d'épreuve (règle de droit commun applicable)
+2. **Supports adaptés** : transcription Braille, agrandissement de polices, contrastes visuels, version audio
+3. **Ressources humaines** : secrétaire-lecteur, interprète LSF (Langue des Signes Française), assistant technique
+4. **Locaux et équipements** : accessibilité PMR (mobilité réduite), matériels adaptés (claviers, souris, etc.)
+
+Questions à poser sur ces 3 dimensions :
+1. Votre domaine professionnel implique-t-il un impact environnemental ? Comment votre certification y répond-elle ?
+2. Quels outils numériques sont utilisés dans votre programme (formation et évaluation) ?
+3. Pour chacun des 4 types d'aménagement PSH, quelle procédure concrète prévoyez-vous ?
+4. Avez-vous un référent handicap identifié pour accompagner les candidats PSH ?
+
+---
+
+#### 5. Évaluation finale certificative
 - Modalités de l'épreuve de certification (rappel du RE étape 4)
 - Moment de l'évaluation dans le parcours
 - Conditions matérielles de l'épreuve
 
-#### 5. Suites possibles
+#### 6. Suites possibles
 - Poursuite de parcours envisageable
 - Lien éventuel avec des blocs de compétences RNCP
 - Reconnaissance dans des conventions collectives ou branches
@@ -80,6 +120,9 @@ Pour chaque module :
 4. Pour chaque module : quel contenu, quelle durée, quelles compétences couvertes ?
 5. Comment se déroule la session d'évaluation finale ?
 6. Avez-vous un référent handicap et une procédure d'accueil PSH ?
+7. Comment votre formation intègre-t-elle les enjeux de transition écologique spécifiques à votre domaine ?
+8. Quels outils numériques sont utilisés dans le programme et dans les épreuves ?
+9. Décrivez votre procédure pour chacun des 4 types d'aménagement PSH (temps, supports, humain, locaux).
 
 ---
 
@@ -96,6 +139,9 @@ Pour chaque module :
 | Procédures (étape 5) | Jury conforme (50% externe), règlement d'évaluation rédigé |
 | Contraintes légales (étape 6) | Traitées ou mentionnées comme non applicables |
 | Programme (étape 6) | Toutes les compétences couvertes, durée cohérente |
+| Transition écologique (2024) | Intégration spécifique au domaine — NON générique |
+| Transition numérique (2024) | Outils numériques identifiés dans le programme ET l'évaluation |
+| Accessibilité PSH (2024) | 4 types d'aménagements décrits (temps, supports, humain, locaux) |
 
 ---
 
@@ -131,6 +177,15 @@ Pour chaque module :
 - Couverture des compétences : [Toutes couvertes / Manques identifiés]
 - Prérequis d'entrée : [liste]
 - Accessibilité PSH : [Oui - référent identifié / À mettre en place]
+
+**Nouvelles exigences FC 2024/2026** :
+- Transition Écologique : [Intégrée spécifiquement - décrire / À compléter]
+- Transition Numérique : [Outils identifiés - lister / À compléter]
+- Accessibilité — 4 aménagements PSH :
+  1. Temps : [+1/3 prévu / À définir]
+  2. Supports : [adaptés - préciser / À définir]
+  3. Ressources humaines : [secrétaire-lecteur/LSF prévus / À définir]
+  4. Locaux/équipements : [PMR - préciser / À définir]
 
 **Cohérence globale du dossier** : [Vérifiée / Points à corriger - liste]
 ---
