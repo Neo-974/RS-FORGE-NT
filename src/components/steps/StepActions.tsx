@@ -14,10 +14,28 @@ interface Props {
 export default function StepActions({ projectId, stepNumber, isComplete, isLastStep }: Props) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [loadingLabel, setLoadingLabel] = useState("Enregistrement…");
 
   async function handleValidate() {
     setLoading(true);
     const supabase = createClient();
+
+    /* Extraction des données structurées depuis la conversation (étapes 1-6) */
+    if (stepNumber <= 6) {
+      setLoadingLabel("Extraction des données…");
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.access_token) {
+        await fetch("/api/extract-step", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${session.access_token}`,
+          },
+          body: JSON.stringify({ projectId, stepNumber }),
+        }).catch(() => {/* extraction best-effort */});
+      }
+      setLoadingLabel("Enregistrement…");
+    }
 
     /* Marque l'étape courante comme complète */
     await supabase
@@ -88,7 +106,7 @@ export default function StepActions({ projectId, stepNumber, isComplete, isLastS
         className="btn-primary text-sm flex-shrink-0"
       >
         {loading
-          ? "Enregistrement…"
+          ? loadingLabel
           : isLastStep
           ? "Finaliser le dossier ✓"
           : "Valider et continuer →"}
