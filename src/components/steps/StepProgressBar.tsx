@@ -1,6 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+
+const STEP_TOOLTIPS = [
+  "Critères FC — Intitulé conforme, public visé, prérequis, VAE",
+  "Critères 1, 1bis, 1ter — Unicité RS, promotions de titulaires, objectifs L.6313-3",
+  "Critère 2 — Référentiel d'activités-types et compétences au format FC",
+  "Critère 2 — Modalités d'évaluation, critères et indicateurs de réussite",
+  "Critère 3 — Jury (majorité externe), organisation des épreuves, archivage",
+  "Critères 1quater, 1quiquies, 4 — Moyens techniques, pédagogiques, programme",
+  "Audit de conformité 9 critères + génération des 6 documents officiels",
+];
 
 const STEP_NAMES = [
   "Concept",
@@ -56,31 +67,38 @@ export default function StepProgressBar({ projectId, steps, currentStep }: Props
               )}
 
               {/* Étape */}
-              {isClickable ? (
-                <Link href={`/projet/${projectId}/etape/${num}`} className="flex flex-col items-center gap-1 group">
-                  <StepCircle num={num} status={status} isCurrent={isCurrent} />
-                  <span
-                    className="text-xs whitespace-nowrap transition-colors"
-                    style={{
-                      color: isCurrent
-                        ? "var(--color-accent-cyan)"
-                        : isComplete
-                        ? "var(--color-accent-green)"
-                        : "var(--color-text-muted)",
-                      fontWeight: isCurrent ? 600 : 400,
-                    }}
-                  >
-                    {shortName}
-                  </span>
-                </Link>
-              ) : (
-                <div className="flex flex-col items-center gap-1 opacity-50 cursor-not-allowed">
-                  <StepCircle num={num} status={status} isCurrent={false} />
-                  <span className="text-xs whitespace-nowrap" style={{ color: "var(--color-text-muted)" }}>
-                    {shortName}
-                  </span>
-                </div>
-              )}
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  {isClickable ? (
+                    <Link href={`/projet/${projectId}/etape/${num}`} className="flex flex-col items-center gap-1 group">
+                      <StepCircle num={num} status={status} isCurrent={isCurrent} />
+                      <span
+                        className="text-xs whitespace-nowrap transition-colors"
+                        style={{
+                          color: isCurrent
+                            ? "var(--color-accent-cyan)"
+                            : isComplete
+                            ? "var(--color-accent-green)"
+                            : "var(--color-text-muted)",
+                          fontWeight: isCurrent ? 600 : 400,
+                        }}
+                      >
+                        {shortName}
+                      </span>
+                    </Link>
+                  ) : (
+                    <div className="flex flex-col items-center gap-1 opacity-50 cursor-not-allowed">
+                      <StepCircle num={num} status={status} isCurrent={false} />
+                      <span className="text-xs whitespace-nowrap" style={{ color: "var(--color-text-muted)" }}>
+                        {shortName}
+                      </span>
+                    </div>
+                  )}
+                </TooltipTrigger>
+                <TooltipContent side="bottom" className="max-w-[220px] text-center">
+                  {STEP_TOOLTIPS[i]}
+                </TooltipContent>
+              </Tooltip>
             </div>
           );
         })}
