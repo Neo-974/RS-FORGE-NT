@@ -41,6 +41,45 @@ export interface ConversationMessage {
   created_at:  string;
 }
 
+export type TitulaireResult      = "certifie" | "non_certifie" | "absent_justifie" | "absent_non_justifie";
+export type TitulaireStatusBefore = "salarie" | "independant" | "demandeur_emploi" | "etudiant" | "autre";
+export type TitulaireFollowUp    = "3_mois" | "6_mois" | "non_renseigne";
+export type TitulaireEvolution   = "promotion" | "augmentation" | "nouvelles_missions" | "creation_activite" | "reconversion" | "sans_changement" | "non_renseigne";
+
+export interface PromotionTitulaire {
+  id:                string;
+  session_id:        string;
+  project_id:        string;
+  last_name:         string;
+  first_name:        string;
+  result:            TitulaireResult;
+  job_title_before:  string | null;
+  employer_before:   string | null;
+  sector_before:     string | null;
+  status_before:     TitulaireStatusBefore | null;
+  job_title_after:   string | null;
+  employer_after:    string | null;
+  follow_up_delay:   TitulaireFollowUp | null;
+  evolution_type:    TitulaireEvolution | null;
+  evolution_details: string | null;
+  created_at:        string;
+  updated_at:        string;
+}
+
+export interface PromotionSession {
+  id:             string;
+  project_id:     string;
+  session_number: number;
+  session_name:   string;
+  start_date:     string | null;
+  end_date:       string | null;
+  eval_date:      string | null;
+  location:       string | null;
+  created_at:     string;
+  updated_at:     string;
+  titulaires:     PromotionTitulaire[];
+}
+
 export interface UserProfile {
   id:                string;
   full_name:         string | null;
