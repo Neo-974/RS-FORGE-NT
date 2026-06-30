@@ -87,14 +87,117 @@ export async function generateReglementEvaluation(data: ProjectData): Promise<Bu
           ],
         }),
 
+        /* Composition du jury */
+        new Paragraph({ text: "3. Composition et règles du jury", heading: HeadingLevel.HEADING_1, spacing: { before: 360, after: 120 } }),
+        ...(data.step5?.jury
+          ? [
+              new Paragraph({
+                children: [
+                  new TextRun({ text: "Taille du jury : ", font: "Calibri", size: 20, bold: true }),
+                  new TextRun({ text: data.step5.jury.taille != null ? `${data.step5.jury.taille} membre(s)` : "Non renseigné", font: "Calibri", size: 20 }),
+                ],
+                spacing: { after: 80 },
+              }),
+              ...(data.step5.jury.membres_exterieurs
+                ? [new Paragraph({ children: [new TextRun({ text: `Membres extérieurs : ${data.step5.jury.membres_exterieurs}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })]
+                : []
+              ),
+              ...(data.step5.jury.college_employeurs
+                ? [new Paragraph({ children: [new TextRun({ text: `Collège employeurs : ${data.step5.jury.college_employeurs}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })]
+                : []
+              ),
+              ...(data.step5.jury.college_salaries
+                ? [new Paragraph({ children: [new TextRun({ text: `Collège salariés / praticiens : ${data.step5.jury.college_salaries}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })]
+                : []
+              ),
+              ...(data.step5.jury.habilitation
+                ? [new Paragraph({ children: [new TextRun({ text: `Procédure d'habilitation : ${data.step5.jury.habilitation}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })]
+                : []
+              ),
+            ]
+          : [new Paragraph({ children: [new TextRun({ text: "Composition du jury non renseignée. Compléter l'étape 5.", font: "Calibri", size: 20, italics: true, color: "999999" })], spacing: { after: 80 } })]
+        ),
+
+        /* Règle majorité externe — obligatoire RS */
+        new Paragraph({
+          children: [new TextRun({ text: "Règle de majorité externe (décret 2025-500) :", font: "Calibri", size: 20, bold: true })],
+          spacing: { before: 160, after: 60 },
+        }),
+        ...[
+          "La majorité des membres du jury (strictement >50 %) doit être externe à l'organisme de formation.",
+          "Les formateurs ayant assuré la formation des candidats évalués sont exclus du jury.",
+          "Jury de 2 membres : les 2 doivent être externes. Jury de 3 membres (recommandé) : 2 externes minimum.",
+          "Le PV d'évaluation mentionne tous les candidats (certifiés et non certifiés).",
+        ].map((rule) =>
+          new Paragraph({
+            children: [new TextRun({ text: rule, font: "Calibri", size: 20 })],
+            bullet: { level: 0 },
+            spacing: { after: 80 },
+          })
+        ),
+
+        /* Organisation */
+        new Paragraph({ text: "4. Organisation des épreuves", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
+        ...(data.step5?.organisation
+          ? Object.entries({
+              "Responsable organisateur": data.step5.organisation.responsable,
+              "Modalités de convocation": data.step5.organisation.convocation,
+              "Déroulement de l'épreuve": data.step5.organisation.deroulement,
+              "Gestion des dysfonctionnements": data.step5.organisation.dysfonctionnements,
+              "Communication des résultats": data.step5.organisation.resultats,
+              "Conditions de rattrapage": data.step5.organisation.rattrapage,
+              "Format du certificat": data.step5.organisation.delivrance,
+              "Voies de recours": data.step5.organisation.recours,
+            })
+              .filter(([, v]) => v != null)
+              .map(([label, value]) =>
+                new Paragraph({
+                  children: [
+                    new TextRun({ text: `${label} : `, font: "Calibri", size: 20, bold: true }),
+                    new TextRun({ text: String(value), font: "Calibri", size: 20 }),
+                  ],
+                  spacing: { after: 80 },
+                })
+              )
+          : [new Paragraph({ children: [new TextRun({ text: "Organisation non renseignée. Compléter l'étape 5.", font: "Calibri", size: 20, italics: true, color: "999999" })], spacing: { after: 80 } })]
+        ),
+
+        /* Validation et durée de validité */
+        new Paragraph({ text: "5. Validation et durée de validité", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
+        new Paragraph({
+          children: [
+            new TextRun({ text: "Type de validation : ", font: "Calibri", size: 20, bold: true }),
+            new TextRun({ text: data.step5?.validation ?? "totale", font: "Calibri", size: 20 }),
+          ],
+          spacing: { after: 80 },
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({ text: "Durée de validité : ", font: "Calibri", size: 20, bold: true }),
+            new TextRun({ text: data.step5?.duree_validite ?? "à vie", font: "Calibri", size: 20 }),
+          ],
+          spacing: { after: 80 },
+        }),
+
+        /* PSH */
+        new Paragraph({ text: "6. Accessibilité — Personnes en situation de handicap (PSH)", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
+        new Paragraph({
+          children: [new TextRun({
+            text: data.step5?.psh_amenagements
+              ?? "Les aménagements d'évaluation pour les personnes en situation de handicap sont définis de manière contextualisée selon la nature de chaque épreuve. Contacter le référent handicap de l'organisme.",
+            font: "Calibri", size: 20,
+          })],
+          spacing: { after: 80 },
+          alignment: AlignmentType.JUSTIFIED,
+        }),
+
         /* Règles générales */
-        new Paragraph({ text: "3. Règles générales d'évaluation", heading: HeadingLevel.HEADING_1, spacing: { before: 360, after: 120 } }),
+        new Paragraph({ text: "7. Règles générales d'évaluation", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
         ...[
           "Toutes les compétences doivent être évaluées pour l'obtention de la certification.",
           "En cas d'échec sur une compétence, le candidat peut repasser l'évaluation de cette compétence uniquement.",
           "Les évaluations sont réalisées en langue française.",
-          "Le jury d'évaluation est composé d'au moins un évaluateur externe à l'organisme de formation.",
-          "Les résultats sont communiqués au candidat dans un délai de 15 jours ouvrés.",
+          "Les résultats sont communiqués au candidat dans les délais fixés au point 4.",
         ].map((rule) =>
           new Paragraph({
             children: [new TextRun({ text: rule, font: "Calibri", size: 20 })],

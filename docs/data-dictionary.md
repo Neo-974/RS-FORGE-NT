@@ -52,6 +52,11 @@ Un projet = un dossier RS en cours de construction.
 | `domain` | text | Domaine professionnel (ex: IA, 3D, Numérique) |
 | `uniqueness_score` | int2 | Score d'unicité estimé (0-100) |
 | `uniqueness_analysis` | jsonb | Résultat de l'analyse RS existant |
+| `rs_type` | text | `transversal` / `complementaire` / `habilitation` |
+| `legal_constraints` | text | Contraintes légales et réglementaires identifiées (Critère 4) |
+| `jury_composition` | text | Description de la composition du jury de certification |
+| `rncp_equivalences` | text | Correspondances éventuelles avec blocs de compétences RNCP |
+| `certification_url` | text | URL de la page web descriptive de la certification |
 | `created_at` | timestamptz | Date de création |
 | `updated_at` | timestamptz | Dernière modification |
 | `deleted_at` | timestamptz | Suppression logique (soft delete) |

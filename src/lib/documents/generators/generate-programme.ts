@@ -6,7 +6,6 @@ import { ProjectData, ProgrammeModule } from "../types";
 import { PAGE_MARGINS, COLOR_ACCENT, COLOR_DARK } from "../styles";
 
 export async function generateProgramme(data: ProjectData): Promise<Buffer> {
-  /* Essaie de parser les modules depuis project_steps content si disponible */
   const modules: ProgrammeModule[] = data.programme ?? data.competences.map((c, i) => ({
     title: `Module ${i + 1} — ${c.competence_title}`,
     duration: "7h",
@@ -15,7 +14,11 @@ export async function generateProgramme(data: ProjectData): Promise<Buffer> {
     content: c.competence_description ?? c.competence_title,
   }));
 
-  const totalHours = modules.length * 7;
+  const dureeTotal = data.step6?.programme?.duree_totale ?? `${modules.length * 7}h (estimé)`;
+  const modalites = data.step6?.programme?.modalites?.join(", ") ?? "Présentiel / Distanciel";
+  const moyens = data.step6?.moyens ?? null;
+  const psh = data.step6?.psh ?? null;
+  const contraintesLegales = data.step6?.contraintes_legales ?? null;
 
   const doc = new Document({
     sections: [{
@@ -39,8 +42,8 @@ export async function generateProgramme(data: ProjectData): Promise<Buffer> {
           ["Organisme", data.organisation_name ?? "NéoTechno Formation"],
           ["Domaine", data.domain ?? "—"],
           ["Public visé", data.target_audience ?? "—"],
-          ["Durée totale estimée", `${totalHours}h`],
-          ["Prérequis", "Maîtrise des bases du domaine professionnel ciblé"],
+          ["Durée totale", dureeTotal],
+          ["Modalités", modalites],
         ] as [string, string][]).map(([label, value]) =>
           new Paragraph({
             children: [
@@ -116,12 +119,43 @@ export async function generateProgramme(data: ProjectData): Promise<Buffer> {
           ],
         }),
 
+        /* Moyens pédagogiques et techniques */
+        new Paragraph({ text: "4. Moyens pédagogiques et techniques", heading: HeadingLevel.HEADING_1, spacing: { before: 360, after: 120 } }),
+        ...(moyens
+          ? [
+              ...(moyens.techniques ? [new Paragraph({ children: [new TextRun({ text: "Moyens techniques : ", font: "Calibri", size: 20, bold: true }), new TextRun({ text: moyens.techniques, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+              ...(moyens.pedagogiques ? [new Paragraph({ children: [new TextRun({ text: "Moyens pédagogiques : ", font: "Calibri", size: 20, bold: true }), new TextRun({ text: moyens.pedagogiques, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+              ...(moyens.encadrement ? [new Paragraph({ children: [new TextRun({ text: "Encadrement (profil formateurs) : ", font: "Calibri", size: 20, bold: true }), new TextRun({ text: moyens.encadrement, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+            ]
+          : [new Paragraph({ children: [new TextRun({ text: "Moyens non renseignés. Compléter l'étape 6.", font: "Calibri", size: 20, italics: true, color: "999999" })], spacing: { after: 80 } })]
+        ),
+
+        /* Contraintes légales */
+        ...(contraintesLegales?.applicable
+          ? [
+              new Paragraph({ text: "5. Contraintes réglementaires applicables", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
+              new Paragraph({ children: [new TextRun({ text: contraintesLegales.reglementation ?? "Réglementation applicable (voir étape 6).", font: "Calibri", size: 20 })], spacing: { after: 80 } }),
+            ]
+          : []
+        ),
+
+        /* Accessibilité PSH */
+        new Paragraph({ text: `${contraintesLegales?.applicable ? "6" : "5"}. Accessibilité — Personnes en situation de handicap`, heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
+        ...(psh
+          ? [
+              new Paragraph({ children: [new TextRun({ text: `Référent handicap désigné : `, font: "Calibri", size: 20, bold: true }), new TextRun({ text: psh.referent ? "Oui" : "Non", font: "Calibri", size: 20 })], spacing: { after: 80 } }),
+              ...(psh.temps ? [new Paragraph({ children: [new TextRun({ text: `Aménagements de temps : ${psh.temps}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+              ...(psh.supports ? [new Paragraph({ children: [new TextRun({ text: `Supports adaptés : ${psh.supports}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+              ...(psh.locaux ? [new Paragraph({ children: [new TextRun({ text: `Accessibilité des locaux : ${psh.locaux}`, font: "Calibri", size: 20 })], spacing: { after: 80 } })] : []),
+            ]
+          : [new Paragraph({ children: [new TextRun({ text: "Modalités d'accessibilité PSH adaptées sur demande auprès du référent handicap de l'organisme.", font: "Calibri", size: 20 })], spacing: { after: 80 } })]
+        ),
+
         /* Modalités d'accès */
-        new Paragraph({ text: "4. Modalités d'accès et accessibilité", heading: HeadingLevel.HEADING_1, spacing: { before: 360, after: 120 } }),
+        new Paragraph({ text: `${contraintesLegales?.applicable ? "7" : "6"}. Modalités d'accès à la formation`, heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 120 } }),
         ...([
-          "Délai d'accès : selon les sessions planifiées, généralement sous 4 semaines.",
-          "Accessibilité PSH : modalités adaptées sur demande auprès du référent handicap.",
-          "Modalités pédagogiques : présentiel, distanciel synchrone ou mixte selon les sessions.",
+          "Délai d'accès : selon les sessions planifiées (généralement 4 à 8 semaines).",
+          "Accès direct après formation ou par Validation des Acquis de l'Expérience (VAE).",
           "Évaluation en cours de formation et évaluation finale certificative.",
         ]).map((item) =>
           new Paragraph({

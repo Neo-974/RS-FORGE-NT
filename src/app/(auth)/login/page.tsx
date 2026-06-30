@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
+import { Button } from "@/components/ui/button";
+import { Loader2 } from "lucide-react";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -67,9 +69,16 @@ export default function LoginPage() {
 
         {error && <p className="error-message">{error}</p>}
 
-        <button type="submit" disabled={loading} className="btn-primary w-full">
-          {loading ? "Connexion en cours…" : "Se connecter"}
-        </button>
+        <Button type="submit" disabled={loading} className="w-full">
+          {loading ? (
+            <>
+              <Loader2 className="w-4 h-4 animate-spin" />
+              Connexion en cours…
+            </>
+          ) : (
+            "Se connecter"
+          )}
+        </Button>
       </form>
 
       <p className="text-center mt-6 text-sm" style={{ color: "var(--color-text-muted)" }}>

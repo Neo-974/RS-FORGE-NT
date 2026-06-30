@@ -1,6 +1,6 @@
 /* Assemble toutes les données d'un projet depuis Supabase pour la génération de documents */
 import { SupabaseClient } from "@supabase/supabase-js";
-import { ProjectData, EvaluationData, CompetenceData } from "./types";
+import { ProjectData, EvaluationData, CompetenceData, Step5Content, Step6Content, ProgrammeModule } from "./types";
 
 export async function assembleProjectData(
   supabase: SupabaseClient,
@@ -57,9 +57,17 @@ export async function assembleProjectData(
     };
   });
 
-  /* Récupère le contenu du programme (étape 6) si disponible */
-  const step6Content = steps?.find((s) => s.step_number === 6)?.content;
-  const programme = step6Content?.modules ?? null;
+  const step5Raw = steps?.find((s) => s.step_number === 5)?.content ?? null;
+  const step6Raw = steps?.find((s) => s.step_number === 6)?.content ?? null;
+
+  const step5 = step5Raw as Step5Content | null;
+  const step6 = step6Raw as Step6Content | null;
+
+  /* Modules depuis step6 (structure imbriquée ou root-level pour compat) */
+  const programme =
+    step6?.programme?.modules ??
+    ((step6Raw as Record<string, unknown> | null)?.modules as ProgrammeModule[] | undefined) ??
+    null;
 
   const userProfile = profile ? (Array.isArray(profile) ? profile[0] : profile) : null;
 
@@ -74,6 +82,8 @@ export async function assembleProjectData(
     competences: enrichedCompetences,
     evaluations: enrichedEvaluations,
     programme,
+    step5,
+    step6,
     author_name: userProfile?.full_name ?? null,
     organisation_name: userProfile?.organisation_name ?? "NéoTechno Formation",
     generated_date: new Date().toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric" }),

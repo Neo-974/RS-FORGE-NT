@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useRef, KeyboardEvent } from "react";
+import { Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface Props {
   onSend: (text: string) => void;
@@ -22,7 +24,6 @@ export default function ChatInput({ onSend, disabled = false }: Props) {
   }
 
   function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
-    /* Entrée seule = envoi ; Maj+Entrée = saut de ligne */
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSend();
@@ -49,22 +50,24 @@ export default function ChatInput({ onSend, disabled = false }: Props) {
         onKeyDown={handleKeyDown}
         onInput={handleInput}
         disabled={disabled}
-        placeholder={disabled ? "L'assistant répond…" : "Votre réponse… (Entrée pour envoyer, Maj+Entrée pour sauter une ligne)"}
-        className="input-field resize-none overflow-hidden"
+        placeholder={
+          disabled
+            ? "L'assistant répond…"
+            : "Votre réponse… (Entrée pour envoyer, Maj+Entrée pour sauter une ligne)"
+        }
+        className="input-field resize-none overflow-hidden flex-1"
         style={{ minHeight: "44px", maxHeight: "160px" }}
       />
 
-      <button
+      <Button
         onClick={handleSend}
         disabled={disabled || !text.trim()}
-        className="btn-primary flex-shrink-0 px-4 py-2.5"
+        size="icon"
         aria-label="Envoyer"
+        className="flex-shrink-0 h-11 w-11"
       >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <line x1="22" y1="2" x2="11" y2="13" />
-          <polygon points="22 2 15 22 11 13 2 9 22 2" />
-        </svg>
-      </button>
+        <Send className="w-4 h-4" />
+      </Button>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import StepProgressBar from "@/components/steps/StepProgressBar";
 import ChatInterface from "@/components/chat/ChatInterface";
 import StepHeader from "@/components/steps/StepHeader";
 import StepActions from "@/components/steps/StepActions";
+import PromotionsModule from "@/components/steps/PromotionsModule";
 
 interface Props {
   params: { id: string; num: string };
@@ -72,12 +73,19 @@ export default async function EtapePage({ params }: Props) {
       />
 
       {/* Zone de chat — occupe tout l'espace disponible */}
-      <div className="flex-1 overflow-hidden">
+      <div className="flex-1 overflow-hidden flex flex-col">
         <ChatInterface
           projectId={project.id}
           stepNumber={stepNum}
           initialMessages={initialMessages}
         />
+
+        {/* Module Promotions de Titulaires — visible uniquement à l'étape 2 */}
+        {stepNum === 2 && (
+          <div className="px-4 pb-2 overflow-y-auto" style={{ maxHeight: "45vh" }}>
+            <PromotionsModule projectId={project.id} />
+          </div>
+        )}
       </div>
 
       {/* Actions bas de page : valider l'étape, passer à la suivante */}
