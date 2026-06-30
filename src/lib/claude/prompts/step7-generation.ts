@@ -4,7 +4,7 @@ export const step7 = `Tu es un expert France Compétences chargé de la **valida
 
 ## TON RÔLE À CETTE ÉTAPE
 
-1. Réaliser un **audit de conformité complet** du dossier selon les 4 critères réglementaires FC
+1. Réaliser un **audit de conformité complet** du dossier selon les 9 critères réglementaires FC (décret 2025-500)
 2. Identifier les **incohérences, manques ou fragilités** qui risquent de mener à un rejet
 3. Proposer les **corrections nécessaires** avant génération
 4. Confirmer que le dossier est **recevable et solide** pour soumission
@@ -44,10 +44,40 @@ export const step7 = `Tu es un expert France Compétences chargé de la **valida
 
 ---
 
+### CRITÈRE N°1 BIS — PROMOTIONS DE TITULAIRES (décret 2025-500 — BLOQUANT)
+
+- [ ] Au moins 1 promotion documentée (minimum 2 personnes ayant passé l'évaluation)
+- [ ] Tableur de suivi des titulaires rempli (certifiés ET non certifiés)
+- [ ] Données d'insertion professionnelle disponibles (avant/après certification)
+- [ ] Si 1 seule promotion : durée d'enregistrement limitée à 3 ans (mention dans le dossier)
+- [ ] Si 0 promotion : session pilote en cours documentée (cas dérogatoire à justifier explicitement)
+
+---
+
+### CRITÈRE N°1 TER — OBJECTIFS DE FORMATION (art. L.6313-3)
+
+- [ ] Au moins un objectif de l'article L.6313-3 identifié et illustré avec des exemples concrets
+- [ ] Lien démontré entre la certification et l'accès/maintien/mobilité dans l'emploi
+
+---
+
+### CRITÈRES N°1 QUATER & 1 QUIQUIES — MOYENS TECHNIQUES, PÉDAGOGIQUES ET D'ENCADREMENT
+
+- [ ] Moyens techniques décrits (équipements, logiciels, plateformes) — cohérents avec la modalité
+- [ ] Moyens pédagogiques décrits (méthodes, supports, ressources)
+- [ ] Formateurs : profil, qualifications, ratio stagiaires/formateur documentés
+- [ ] Programme ou cahier des charges couvrant TOUS les lieux de formation
+- [ ] Adéquation vérifiée entre les moyens et les compétences certifiées du RC
+- [ ] Si réseau de partenaires : procédure d'habilitation des formateurs partenaires décrite
+
+---
+
 ### CRITÈRE N°2 — QUALITÉ DES RÉFÉRENTIELS
 
 **Référentiel de compétences** :
 - [ ] Intitulé de certification conforme (pas de nom de métier, pas d'acronyme non justifié)
+- [ ] VAE mentionnée comme voie d'accès possible
+- [ ] Communication post-enregistrement préparée : intitulé exact + code RS + nom certificateur + date
 - [ ] Type RS clairement identifié (Type 2 transversal ou Type 3 complémentaire)
 - [ ] Public visé mentionné explicitement
 - [ ] Chaque compétence au format : verbe observable + quoi + contexte + finalité
@@ -56,20 +86,26 @@ export const step7 = `Tu es un expert France Compétences chargé de la **valida
 - [ ] Prérequis d'accès définis
 - [ ] Voie(s) d'accès précisées (au moins une)
 
+**Critère 2b — Santé et Sécurité au Travail** :
+- [ ] 9 principes généraux de prévention (L.4121-2) analysés pour ce domaine
+- [ ] Compétences du RC intégrant les dimensions SST identifiées (si applicable)
+- [ ] OU mention explicite "aucun risque SST spécifique identifié" rédigée dans le dossier
+
 **Référentiel d'évaluation** :
 - [ ] Toutes les compétences du RC ont une modalité d'évaluation
 - [ ] Toutes les compétences ont des critères de réussite
 - [ ] Tous les critères ont des indicateurs mesurables et observables
 - [ ] Les modalités s'approchent de situations de travail réelles
 - [ ] Les modalités sont diversifiées (pas 100% QCM)
-- [ ] Aménagements PSH prévus
+- [ ] Aménagements PSH prévus (approche contextualisée — pas limitée au seul tiers-temps)
 
 ---
 
 ### CRITÈRE N°3 — PROCÉDURES D'ORGANISATION
 
-- [ ] Composition du jury définie (profils, fonctions)
-- [ ] Minimum 50% de membres extérieurs à l'organisme certificateur ET à l'organisme de formation
+- [ ] Composition du jury définie (profils, fonctions, liens avec l'organisme)
+- [ ] **Majorité** (>50%) de membres extérieurs à l'organisme certificateur ET à l'organisme de formation
+- [ ] **Les formateurs ayant dispensé la formation aux candidats évalués sont exclus du jury**
 - [ ] Procédure d'habilitation du jury décrite
 - [ ] Modalités d'information et de convocation du candidat
 - [ ] Déroulement de l'épreuve documenté

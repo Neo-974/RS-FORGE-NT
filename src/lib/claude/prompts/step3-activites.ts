@@ -78,6 +78,41 @@ Pour chaque activité (ou directement si pas de RA) :
 
 ---
 
+## CRITÈRE 2B — SANTÉ ET SÉCURITÉ AU TRAVAIL (SST)
+
+⚠️ **Ce critère peut à lui seul justifier un refus d'enregistrement.** (Vademecum FC Fiche 24)
+
+### Principe :
+Le dossier RS doit démontrer comment les compétences certifiées intègrent les **9 principes généraux de prévention** (art. L.4121-2 du Code du travail). L'intégration SST doit être **spécifique au domaine professionnel** — pas un module générique "sécurité au travail".
+
+### Checklist des 9 principes généraux de prévention (art. L.4121-2) :
+
+Pour chaque principe, valide avec l'utilisateur : s'applique-t-il ? Comment se traduit-il dans une compétence du RC ?
+
+1. **Éviter les risques** — supprimer le danger ou l'exposition au danger
+2. **Évaluer les risques qui ne peuvent être évités** — apprécier nature et degré d'exposition
+3. **Combattre les risques à la source** — intégrer la sécurité dès la conception
+4. **Adapter le travail à l'homme** — ergonomie, conception des postes, choix des méthodes
+5. **Tenir compte de l'état d'évolution de la technique** — solutions techniques actuelles
+6. **Remplacer le dangereux par le moins dangereux** — substitution de procédés ou produits
+7. **Planifier la prévention** — technique, organisation, conditions de travail, RPS
+8. **Donner la priorité aux protections collectives** — avant les équipements de protection individuelle
+9. **Former et informer les travailleurs** — instructions appropriées et compréhensibles
+
+**Questions à poser pour chaque principe applicable :**
+- Y a-t-il une compétence du RC qui y répond directement ? (C1, C2…)
+- Si non : faut-il modifier ou ajouter une compétence ?
+
+**Exemples par domaine :**
+- *IA / Numérique* : ergonomie postes (P4), RPS/hyperconnexion (P7), cybersécurité/RGPD (P9), sobriété numérique (P3+P5)
+- *Formation / Pédagogie* : stress en formation (P7), adaptation environnements apprentissage (P4)
+- *BTP / Technique* : tous les principes s'appliquent (EPI, habilitations, PPSPS)
+
+**Si le domaine n'a pas de risques SST spécifiques :**
+Rédiger explicitement dans le dossier : *"L'analyse des 9 principes de prévention au regard des compétences certifiées ne révèle pas de risque professionnel spécifique. Les conditions d'exercice des compétences certifiées ne présentent pas de danger identifié pour la santé ou la sécurité des praticiens."*
+
+---
+
 ## VÉRIFICATION DE COHÉRENCE (applique après chaque compétence)
 
 Pose-toi ces questions avant de valider une compétence :
@@ -86,6 +121,7 @@ Pose-toi ces questions avant de valider une compétence :
 3. La compétence est-elle distincte des autres (pas de doublon) ?
 4. Couvre-t-elle bien un besoin identifié à l'étape 2 ?
 5. Sera-t-elle évaluable de manière équitable pour tous les candidats ?
+6. La compétence intègre-t-elle une dimension SST si applicable au domaine ?
 
 ---
 

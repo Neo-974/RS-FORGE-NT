@@ -20,16 +20,19 @@ Guide l'ingénieur pédagogique dans la rédaction du **Règlement d'évaluation
 Règles **impératives** FC :
 
 - **Minimum 2 membres** par jury, sans aucun lien professionnel ou personnel avec le candidat
-- **Minimum 50% des membres** doivent être EXTÉRIEURS à l'organisme certificateur ET à l'organisme de formation
+- **MAJORITÉ des membres** (strictement plus de 50%) doivent être EXTÉRIEURS à l'organisme certificateur ET à l'organisme de formation
+- **⚠️ Les formateurs ayant dispensé la formation aux candidats évalués sont EXCLUS du jury**, même s'ils sont extérieurs à l'organisme — conflit d'intérêts direct (Vademecum FC)
 - Le jury doit garantir son **indépendance** et prévenir les conflits d'intérêts
-- Distinction impérative entre jury de **sélection** (entrée en formation) et jury de **certification** (délivrance)
+- Distinction impérative entre jury de **sélection** (entrée en formation) et jury de **certification** (délivrance) — les deux ne peuvent pas être confondus
 - Exception : Pour certifications adaptées (tests de langues, informatique), évaluation 100% écrite/automatisée possible (remplacé par étalonnage du test)
 
 **⚠️ RÈGLE PARITAIRE OBLIGATOIRE (souvent ignorée — motif de rejet) :**
-Le jury doit être constitué en **deux collèges paritaires** :
+Le jury doit être constitué en **deux collèges paritaires** parmi les membres extérieurs :
 - **Collège employeurs** : représentants d'entreprises, DRH, managers, chefs d'entreprise du secteur visé
-- **Collège salariés** : représentants de salariés ou de personnes exerçant les compétences certifiées (praticiens du métier)
-La parité doit être respectée au sein des membres extérieurs. Un jury composé uniquement de formateurs ou d'experts internes ne satisfait PAS à cette exigence.
+- **Collège salariés/praticiens** : représentants de salariés ou de personnes exerçant effectivement les compétences certifiées (praticiens du métier, pas des formateurs)
+Un jury composé uniquement de formateurs, d'anciens formateurs ou d'experts internes ne satisfait PAS à cette exigence.
+
+**Le PV de jury doit lister TOUS les candidats**, certifiés ET non certifiés, avec le résultat individuel pour chaque compétence.
 
 Questions à poser :
 1. Qui composera le jury de certification ? (profils, fonctions, liens avec l'organisme)
@@ -76,11 +79,23 @@ Règle FC :
 - Pas de date d'expiration imposée aux certifiés
 - Possibilité de se représenter volontairement aux épreuves (ex : niveau supérieur)
 
-### F. AMÉNAGEMENTS PSH
+### F. AMÉNAGEMENTS PSH (approche contextualisée pour le RS)
 
-- Procédure d'aménagement pour les candidats en situation de handicap
-- Types d'aménagements possibles : temps supplémentaire, accessibilité du lieu, format adapté
-- Référent handicap identifié
+Le Vademecum FC précise que pour le RS, l'analyse PSH doit être **contextualisée** : certains publics RS ont eux-mêmes des compétences liées à leur propre situation de handicap (ex : certification en accessibilité numérique dispensée à des personnes malvoyantes). L'approche doit donc être adaptée au profil réel des candidats du domaine concerné.
+
+**Règle FC importante** : ne pas limiter les aménagements au seul "tiers-temps" — chaque type de handicap nécessite des mesures adaptées.
+
+**4 types d'aménagements à décrire obligatoirement :**
+1. **Temps** : majoration d'1/3 du temps d'épreuve (droit commun applicable par défaut)
+2. **Supports** : transcription Braille, agrandissement de polices, contraste visuel, version audio
+3. **Ressources humaines** : secrétaire-lecteur, interprète LSF, assistant technique
+4. **Locaux et équipements** : accessibilité PMR, matériels adaptés (claviers, souris, etc.)
+
+**Procédure à décrire :**
+- Identification du référent handicap de l'organisme certificateur
+- Procédure de demande d'aménagement par le candidat (délai, formulaire, justificatifs)
+- Modalités de décision et de mise en œuvre des aménagements
+- Traçabilité des aménagements accordés (archivage 5 ans)
 
 ### G. ARCHIVAGE DES DOSSIERS DE CERTIFICATION (obligatoire)
 

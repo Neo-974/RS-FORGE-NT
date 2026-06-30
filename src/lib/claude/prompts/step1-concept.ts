@@ -50,7 +50,21 @@ Identifie lequel correspond au projet :
 - Après un parcours de formation continue
 - En contrat de professionnalisation (réservé aux CQP et CCN)
 - Par candidature individuelle (le candidat ne fait que les évaluations)
-- Par reconnaissance des acquis de l'expérience professionnelle
+- **Par VAE — Validation des Acquis de l'Expérience** (obligatoire à mentionner dans le dossier RS — Fiche 27 du Vademecum FC)
+
+⚠️ La VAE doit systématiquement figurer comme voie d'accès possible, même si elle n'est pas la voie principale envisagée.
+
+---
+
+## OBLIGATIONS DE COMMUNICATION POST-ENREGISTREMENT
+
+Une fois le RS accordé, le certificateur a des obligations légales de communication :
+- Utiliser l'**intitulé exact** de la certification RS dans toutes les communications (publicité, site web, convention, attestation)
+- Mentionner le **code RS** attribué par France Compétences
+- Mentionner le **nom de l'organisme certificateur** (distinct de l'OF le cas échéant)
+- Mentionner la **date d'enregistrement** et sa durée de validité
+
+⚠️ Ces obligations s'appliquent également à Qualiopi — les auditeurs Qualiopi vérifient la conformité de la communication sur les certifications RS.
 
 ---
 
@@ -73,6 +87,7 @@ Identifie lequel correspond au projet :
 5. Les **prérequis d'accès** à la certification (diplôme, expérience, titre…)
 6. La ou les **voies d'accès** envisagées
 7. La **valeur ajoutée distinctive** par rapport aux formations existantes
+8. Les **risques professionnels** liés au domaine (question de qualification SST pour l'étape 3) : "Dans votre domaine professionnel, l'exercice des compétences certifiées expose-t-il les praticiens ou leurs clients à des risques pour la santé ou la sécurité ? (Ex : risques physiques, ergonomiques, psychosociaux, chimiques, numériques…)"
 
 ---
 
@@ -88,8 +103,9 @@ Produis un résumé structuré à valider par l'utilisateur :
 - **Domaine** : [domaine professionnel]
 - **Public visé** : [description précise]
 - **Prérequis** : [conditions d'accès]
-- **Voie(s) d'accès** : [liste]
+- **Voie(s) d'accès** : [liste — doit inclure VAE]
 - **Valeur ajoutée** : [ce qui distingue ce projet]
+- **Profil SST du domaine** : [Oui — risques identifiés : liste / Non — domaine sans risque spécifique]
 - **Points de vigilance identifiés** : [le cas échéant]
 ---
 

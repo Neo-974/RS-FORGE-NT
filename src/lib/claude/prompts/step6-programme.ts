@@ -34,6 +34,64 @@ Renseigne OBLIGATOIREMENT cette rubrique dans les cas suivants :
 
 ---
 
+## PARTIE 1 BIS — CRITÈRES 1 QUATER ET 1 QUIQUIES : MOYENS TECHNIQUES, PÉDAGOGIQUES ET D'ENCADREMENT
+
+Ces deux critères, introduits par le décret 2025-500, vérifient respectivement :
+- **Critère 1 quater** : La **réalité** des moyens techniques, pédagogiques et d'encadrement (est-ce que ces moyens existent réellement ?)
+- **Critère 1 quiquies** : L'**adéquation** de ces moyens avec le référentiel de compétences (est-ce que ces moyens permettent d'acquérir les compétences certifiées ?)
+
+FC attend un **programme ou cahier des charges** couvrant TOUS les lieux où la formation est dispensée.
+
+### A. MOYENS TECHNIQUES
+
+**Questions à adapter selon la modalité déclarée en étape 1 :**
+
+*Si présentiel ou mixte :*
+- Quelles sont les salles ou locaux de formation ? (surface, équipements, accessibilité)
+- Quels équipements informatiques ou techniques sont disponibles ? (ratio stagiaires/postes, configuration)
+- Quels logiciels ou plateformes sont utilisés ? (versions, licences, disponibilité)
+- Les locaux sont-ils propres à l'organisme ou mutualisés ? (convention si mutualisés)
+
+*Si distanciel / FOAD / e-learning :*
+- Quelle plateforme LMS est utilisée ? (nom, hébergement, accessibilité)
+- Quelles sont les configurations techniques requises pour les apprenants ? (bande passante, navigateur, équipements)
+- Comment est assurée la continuité en cas de panne de la plateforme ?
+- Les supports numériques sont-ils accessibles aux PSH ? (conformité RGAA si applicable)
+
+*Pour tous :*
+- Les outils numériques utilisés en formation sont-ils aussi utilisés lors des évaluations ? (cohérence RC/RE)
+
+### B. MOYENS PÉDAGOGIQUES
+
+- Nature des supports de formation (diaporamas, guides, vidéos, exercices pratiques, études de cas…)
+- Méthodes pédagogiques utilisées (expositive, démonstrative, active, expérientielle, AFEST…)
+- Ressources documentaires accessibles aux stagiaires (bibliographie, bases de données, outils de veille)
+- Modalités de suivi de la progression des apprenants pendant la formation
+
+### C. MOYENS D'ENCADREMENT
+
+- Profil des formateurs intervenants : qualifications, expérience professionnelle dans le domaine, titres ou certifications détenus
+- Ratio formateurs/stagiaires (en présentiel ET en distanciel)
+- Missions des formateurs (formation, accompagnement, évaluation formative — distincte de l'évaluation certificative)
+- Procédure de recrutement et de qualification des formateurs intervenants
+- Si réseau de partenaires : procédure d'habilitation des formateurs partenaires et vérification de leur qualification
+
+### D. PROGRAMME OU CAHIER DES CHARGES
+
+France Compétences exige un document couvrant **tous les lieux de formation** (y compris les partenaires habilités) décrivant :
+- L'ensemble des moyens techniques, pédagogiques et d'encadrement mis en œuvre
+- Les conditions d'accueil et d'organisation des sessions
+- Les modalités de contrôle de la mise en œuvre par les partenaires si applicable
+
+**Questions à poser :**
+1. Avez-vous un document (programme, guide pédagogique, cahier des charges) décrivant les moyens mis en œuvre ?
+2. Ce document couvre-t-il tous les lieux où la formation est dispensée ?
+3. Vos formateurs intervenants ont-ils des qualifications documentées dans le domaine certifié ?
+4. Quel est le ratio formateurs/stagiaires prévu ?
+5. Comment vérifiez-vous que les moyens techniques sont effectivement disponibles pour chaque session ?
+
+---
+
 ## PARTIE 2 — PROGRAMME DE FORMATION CERTIFIANTE
 
 Le programme de formation n'est pas strictement imposé par le dossier RS, mais il est attendu pour démontrer la cohérence globale du dispositif. Il doit porter la mention "formation certifiante" (article L.6313-7 du Code du travail).
@@ -136,18 +194,22 @@ Questions à poser sur ces 3 dimensions :
 | Opportunité + valeur d'usage (étape 2) | Preuves documentées et suffisantes |
 | Compétences (étape 3) | Toutes au format verbe + quoi + finalité, évaluables |
 | Référentiel d'évaluation (étape 4) | Toutes les compétences ont des critères et indicateurs |
-| Procédures (étape 5) | Jury conforme (50% externe), règlement d'évaluation rédigé |
+| Procédures (étape 5) | Jury conforme (majorité externe, parité, formateurs exclus), règlement d'évaluation rédigé |
 | Contraintes légales (étape 6) | Traitées ou mentionnées comme non applicables |
 | Programme (étape 6) | Toutes les compétences couvertes, durée cohérente |
 | Transition écologique (2024) | Intégration spécifique au domaine — NON générique |
 | Transition numérique (2024) | Outils numériques identifiés dans le programme ET l'évaluation |
-| Accessibilité PSH (2024) | 4 types d'aménagements décrits (temps, supports, humain, locaux) |
+| Accessibilité PSH (2024) | 4 types d'aménagements décrits (temps, supports, humain, locaux) — approche contextualisée |
+| Moyens techniques (critère 1quater) | Réalité des moyens vérifiée et documentée |
+| Adéquation moyens/RC (critère 1quiquies) | Moyens cohérents avec les compétences certifiées |
+| SST — 9 principes (critère 2b, étape 3) | Intégrés dans le RC ou mention explicite "non applicable" |
+| Promotions de titulaires (critère 1bis, étape 2) | ≥1 promotion documentée, tableur saisi |
 
 ---
 
 ## COMPORTEMENT ATTENDU
 
-- Traite d'abord la partie légale (critère 4), puis le programme
+- Traite d'abord les moyens techniques/pédagogiques (critères 1quater/1quiquies), puis la partie légale (critère 4), puis le programme
 - Signale si des prérequis réglementaires non identifiés risquent de fragiliser le dossier
 - Vérifie systématiquement que le programme couvre TOUTES les compétences du RC
 - Propose des formulations conformes au vocabulaire FC
@@ -158,7 +220,15 @@ Questions à poser sur ces 3 dimensions :
 ## SORTIE ATTENDUE EN FIN D'ÉTAPE
 
 ---
-**CONTRAINTES LÉGALES & PROGRAMME — ÉTAPE 6 VALIDÉE**
+**CONTRAINTES LÉGALES, MOYENS & PROGRAMME — ÉTAPE 6 VALIDÉE**
+
+**Critères 1 quater & 1 quiquies — Moyens techniques, pédagogiques et d'encadrement** :
+- Moyens techniques : [décrire équipements, logiciels, plateformes]
+- Modalité principale : [Présentiel / Distanciel / Mixte] → questions adaptées
+- Moyens pédagogiques : [méthodes et supports utilisés]
+- Formateurs : [profil, qualifications, ratio stagiaires/formateur]
+- Document de référence : [Programme / Cahier des charges — statut : rédigé / à rédiger]
+- Adéquation avec le RC : [Vérifiée / Points à corriger]
 
 **Critère n°4 — Contraintes légales** :
 - Applicable : [Oui/Non]
