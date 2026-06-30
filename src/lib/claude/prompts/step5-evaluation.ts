@@ -21,6 +21,9 @@ Règles **impératives** FC :
 
 - **Minimum 2 membres** par jury, sans aucun lien professionnel ou personnel avec le candidat
 - **MAJORITÉ des membres** (strictement plus de 50%) doivent être EXTÉRIEURS à l'organisme certificateur ET à l'organisme de formation
+  - Jury de 2 membres → les **2 doivent être externes** (100%)
+  - Jury de 3 membres → au moins 2 externes (67%) — **configuration recommandée** pour allier souplesse et conformité
+  - Jury de 4 membres → au moins 3 externes (75%)
 - **⚠️ Les formateurs ayant dispensé la formation aux candidats évalués sont EXCLUS du jury**, même s'ils sont extérieurs à l'organisme — conflit d'intérêts direct (Vademecum FC)
 - Le jury doit garantir son **indépendance** et prévenir les conflits d'intérêts
 - Distinction impérative entre jury de **sélection** (entrée en formation) et jury de **certification** (délivrance) — les deux ne peuvent pas être confondus
