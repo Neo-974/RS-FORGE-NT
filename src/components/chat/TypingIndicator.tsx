@@ -1,14 +1,16 @@
 "use client";
 
+import { Sparkles } from "lucide-react";
+
 export default function TypingIndicator() {
   return (
     <div className="flex gap-3 flex-row">
-      {/* Avatar assistant */}
+      {/* Avatar assistant — identique à ChatBubble */}
       <div
-        className="w-8 h-8 rounded-lg flex-shrink-0 flex items-center justify-center text-xs font-bold font-display"
-        style={{ background: "var(--gradient-neotechno)", color: "white" }}
+        className="w-8 h-8 rounded-lg flex-shrink-0 flex items-center justify-center"
+        style={{ background: "var(--gradient-neotechno)" }}
       >
-        RS
+        <Sparkles className="w-4 h-4 text-white" />
       </div>
 
       {/* Trois points animés */}

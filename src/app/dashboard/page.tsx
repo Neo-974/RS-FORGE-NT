@@ -4,6 +4,7 @@ import { Plus, FolderOpen, Clock, CheckCircle, Archive, FileText } from "lucide-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import ProjectActions from "@/components/dashboard/ProjectActions";
 
 const STATUS_CONFIG: Record<string, { label: string; variant: "default" | "secondary" | "warning" | "info" | "outline" }> = {
   draft:       { label: "Brouillon",  variant: "outline" },
@@ -147,6 +148,13 @@ export default async function DashboardPage() {
                 <p className="text-xs flex-shrink-0 hidden sm:block" style={{ color: "var(--color-text-muted)" }}>
                   {new Date(project.updated_at).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" })}
                 </p>
+
+                {/* Actions (stoppe la propagation du Link) */}
+                <ProjectActions
+                  projectId={project.id}
+                  projectTitle={project.title}
+                  status={project.status}
+                />
               </Link>
             );
           })}
