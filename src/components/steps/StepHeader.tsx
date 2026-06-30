@@ -1,11 +1,11 @@
 const STEP_DESCRIPTIONS: Record<number, string> = {
-  1: "Définissez avec l'assistant le concept précis de votre certification RS.",
-  2: "L'assistant analyse les certifications RS existantes pour évaluer l'unicité de votre projet.",
-  3: "Construisez ensemble les activités-types du métier ciblé (3 à 5 activités).",
-  4: "Rédigez les compétences au format France Compétences : verbe d'action + moyens + finalité.",
-  5: "Définissez les modalités, critères et indicateurs d'évaluation pour chaque compétence.",
-  6: "Structurez le programme de formation : durée, séquences, modalités pédagogiques.",
-  7: "Validez le dossier complet et téléchargez les documents prêts pour CERTIF PRO.",
+  1: "Critère FC : Définissez le concept, l'intitulé conforme et le public visé de votre certification RS.",
+  2: "Critère FC n°1 : Analyse d'unicité RS + étude d'opportunité + preuves de valeur d'usage.",
+  3: "Critère FC n°2 : Construisez le référentiel de compétences au format officiel France Compétences.",
+  4: "Critère FC n°2 : Construisez le référentiel d'évaluation avec modalités, critères et indicateurs.",
+  5: "Critère FC n°3 : Définissez les procédures d'organisation du jury et des épreuves de certification.",
+  6: "Critère FC n°4 : Contraintes légales + programme de formation certifiante.",
+  7: "Audit de conformité complet + génération des 6 documents officiels prêts pour CERTIF PRO.",
 };
 
 interface Props {

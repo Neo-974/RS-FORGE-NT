@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const STEP_NAMES = [
   "Concept",
-  "Unicité",
-  "Activités",
+  "Opportunité",
   "Compétences",
   "Évaluation",
+  "Procédures",
   "Programme",
-  "Documents",
+  "Dossier",
 ];
 
 interface Step {

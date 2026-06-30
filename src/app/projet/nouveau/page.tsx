@@ -44,13 +44,13 @@ export default function NouveauProjetPage() {
 
     /* Pré-crée les 7 étapes avec statut pending */
     const stepNames = [
-      "Définition du concept",
-      "Analyse d'unicité",
-      "Référentiel d'activités",
+      "Concept & intitulé RS",
+      "Opportunité & valeur d'usage",
       "Référentiel de compétences",
       "Référentiel d'évaluation",
-      "Programme de formation",
-      "Génération des documents",
+      "Procédures d'organisation",
+      "Contraintes légales & programme",
+      "Validation & génération du dossier",
     ];
 
     await supabase.from("project_steps").insert(
@@ -125,14 +125,14 @@ export default function NouveauProjetPage() {
               Votre parcours en 7 étapes :
             </p>
             {[
-              "Définition du concept",
-              "Analyse d'unicité",
-              "Référentiel d'activités",
-              "Référentiel de compétences",
-              "Référentiel d'évaluation",
-              "Programme de formation",
-              "Génération des documents",
-            ].map((name, i) => (
+              { name: "Concept & intitulé RS", hint: "Critère FC — Intitulé conforme, public, prérequis" },
+              { name: "Opportunité & valeur d'usage", hint: "Critère FC n°1 — Analyse RS + preuves marché" },
+              { name: "Référentiel de compétences", hint: "Critère FC n°2 — Format verbe + quoi + finalité" },
+              { name: "Référentiel d'évaluation", hint: "Critère FC n°2 — Modalités, critères, indicateurs" },
+              { name: "Procédures d'organisation", hint: "Critère FC n°3 — Jury 50% externe, règlement" },
+              { name: "Contraintes légales & programme", hint: "Critère FC n°4 — Légal + formation certifiante" },
+              { name: "Validation & génération du dossier", hint: "Audit de conformité + 6 documents officiels" },
+            ].map(({ name, hint }, i) => (
               <div key={i} className="flex items-center gap-3">
                 <span
                   className="w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
@@ -144,9 +144,14 @@ export default function NouveauProjetPage() {
                 >
                   {i + 1}
                 </span>
-                <span className="text-xs" style={{ color: i === 0 ? "var(--color-text-primary)" : "var(--color-text-muted)" }}>
-                  {name}
-                </span>
+                <div>
+                  <span className="text-xs font-medium" style={{ color: i === 0 ? "var(--color-text-primary)" : "var(--color-text-muted)" }}>
+                    {name}
+                  </span>
+                  <span className="block text-xs" style={{ color: "var(--color-text-muted)", opacity: 0.7 }}>
+                    {hint}
+                  </span>
+                </div>
               </div>
             ))}
           </div>
