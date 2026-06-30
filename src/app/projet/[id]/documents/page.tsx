@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import DocumentCard from "@/components/documents/DocumentCard";
 import DownloadAllButton from "@/components/documents/DownloadAllButton";
 import StepProgressBar from "@/components/steps/StepProgressBar";
+import { Progress } from "@/components/ui/progress";
 
 const DOCUMENTS = [
   {
@@ -111,19 +112,7 @@ export default async function DocumentsPage({ params }: { params: { id: string }
 
         {/* Progression */}
         <div className="mb-6 flex items-center gap-3">
-          <div
-            className="flex-1 rounded-full h-2"
-            style={{ background: "var(--color-bg-elevated)" }}
-          >
-            <div
-              className="h-2 rounded-full transition-all"
-              style={{
-                width: `${(completedSteps / 7) * 100}%`,
-                background: "var(--gradient-neotechno)",
-                boxShadow: "var(--glow-green)",
-              }}
-            />
-          </div>
+          <Progress value={Math.round((completedSteps / 7) * 100)} className="flex-1 h-2" />
           <span className="text-sm font-mono flex-shrink-0" style={{ color: "var(--color-text-secondary)" }}>
             {completedSteps}/7 étapes
           </span>
@@ -157,7 +146,7 @@ export default async function DocumentsPage({ params }: { params: { id: string }
               "Connectez-vous sur certifpro.francecompetences.fr",
               "Créez un nouveau dossier RS et complétez le formulaire en ligne",
               "Importez chaque document Word dans la section correspondante",
-              "Soumettez votre dossier et attendez la validation de France Compétences (délai : 3 à 6 mois)",
+              "Soumettez votre dossier et attendez la validation de France Compétences (délai : 4 à 9 mois)",
             ].map((step, i) => (
               <li key={i} className="flex items-start gap-3 text-sm">
                 <span

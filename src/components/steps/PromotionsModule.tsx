@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { Badge } from "@/components/ui/badge";
 import type {
   PromotionSession,
   PromotionTitulaire,
@@ -375,9 +376,13 @@ export default function PromotionsModule({ projectId }: Props) {
                             {t.last_name} {t.first_name}
                           </td>
                           <td className="px-3 py-2">
-                            <span style={{ color: RESULT_COLORS[t.result], fontWeight: 600 }}>
+                            <Badge variant={
+                              t.result === "certifie" ? "default"
+                              : t.result === "non_certifie" ? "warning"
+                              : "secondary"
+                            }>
                               {RESULT_LABELS[t.result]}
-                            </span>
+                            </Badge>
                           </td>
                           <td className="px-3 py-2" style={{ color: "var(--color-text-secondary)" }}>
                             {t.job_title_before || "—"}
