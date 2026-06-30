@@ -22,12 +22,6 @@ const RESULT_LABELS: Record<TitulaireResult, string> = {
   absent_non_justifie: "Absent non justifié",
 };
 
-const RESULT_COLORS: Record<TitulaireResult, string> = {
-  certifie:            "var(--color-accent-green)",
-  non_certifie:        "var(--color-accent-orange)",
-  absent_justifie:     "var(--color-text-muted)",
-  absent_non_justifie: "var(--color-text-muted)",
-};
 
 const STATUS_BEFORE_LABELS: Record<TitulaireStatusBefore, string> = {
   salarie:         "Salarié",

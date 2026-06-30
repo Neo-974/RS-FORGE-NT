@@ -5,7 +5,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { LayoutDashboard, FolderOpen, LogOut, BookOpen, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 
 const navItems = [
   { href: "/dashboard", label: "Tableau de bord", icon: LayoutDashboard },

@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { NextRequest, NextResponse } from "next/server";
 import { EXTRACTION_PROMPTS } from "@/lib/claude/extraction/prompts";
 
@@ -92,7 +92,8 @@ export async function POST(request: NextRequest) {
 /*  Sauvegarde des données extraites selon l'étape                     */
 /* ------------------------------------------------------------------ */
 async function saveExtractedData(
-  supabase: ReturnType<typeof createClient>,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  supabase: SupabaseClient<any>,
   projectId: string,
   stepNumber: number,
   data: Record<string, unknown>
