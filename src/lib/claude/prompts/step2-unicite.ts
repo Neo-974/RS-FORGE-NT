@@ -247,6 +247,63 @@ Parmi ces 4 objectifs, lesquels votre certification vise-t-elle en priorité ? I
 
 ---
 
+## 6. STATUT DU CERTIFICATEUR ET OBLIGATIONS FC (Critère n°2 — volet organisationnel)
+
+### Certificateur unique ou co-certificateur
+
+La position du certificateur dans le dispositif a des implications directes sur le dossier.
+
+**Questions à poser :**
+1. L'organisme délivre-t-il la certification en son propre nom (certificateur unique) ou dans le cadre d'un groupement avec d'autres organismes (co-certificateur) ?
+2. Si réseau ou groupement : qui est le détenteur de la certification ? Les autres organismes sont-ils partenaires de formation ou co-certificateurs ?
+
+**Obligations du détenteur de la certification :**
+- Informer France Compétences via la **téléprocédure CERTIF PRO** de toute modification significative (intitulé, périmètre, public, référentiel)
+- Mettre à jour la **fiche descriptive en ligne** à chaque évolution du dispositif
+- Cette fiche descriptive est le document de référence pour la communication vers les bénéficiaires potentiels (programme, modalités, contacts)
+
+---
+
+## 7. DOCUMENTS D'ACCOMPAGNEMENT ET PREUVES D'ENGAGEMENT (fortement conseillés)
+
+Au-delà des preuves réglementaires, France Compétences est sensible aux documents qui témoignent de la motivation et du sérieux de l'organisme.
+
+### A. Courrier de l'OF — Intérêt stratégique du projet (courrier RFC)
+
+Ce courrier, rédigé par le responsable de l'organisme de formation, explique :
+- **Pourquoi cet organisme** se positionne sur cette certification (expérience, légitimité, expertise)
+- **Quels besoins terrain** l'ont amené à construire ce projet (demandes non satisfaites, refus de financement, besoins identifiés sur le bassin)
+- **Quelle valeur ajoutée** l'OF apporte par rapport aux dispositifs existants
+- **La vision long terme** : capacité à assurer les obligations de certificateur dans la durée (jury, archivage, suivi, communication)
+
+### B. Positionnement RSE et impact territorial
+
+France Compétences valorise les dossiers qui s'inscrivent dans une **démarche responsable et territoriale** :
+- Contribution au développement de l'économie locale et de l'employabilité (collectivités, bassins d'emploi)
+- Participation à une dynamique circulaire et effective auprès des acteurs publics (Régions, OPCO, pôle emploi, mairies)
+- Engagement RSE de l'organisme (numérisation, accès, inclusion, éco-responsabilité)
+- Si l'OF collabore avec des collectivités locales ou des branches professionnelles : le mentionner explicitement
+
+**Questions à poser :**
+1. Votre organisme a-t-il un engagement RSE formalisé ? (charte, label, politique documentée)
+2. Travaillez-vous avec des collectivités locales, des OPCO ou des branches professionnelles ?
+3. Quelle est votre implantation territoriale ? Bassin d'emploi ciblé ?
+4. Pouvez-vous articuler en quoi votre certification contribue au développement économique local ?
+
+### C. Courriers de refus de financement (preuve d'engagement)
+
+Si l'OF a essuyé des refus de financement UNIQUEMENT parce que la certification n'était pas référencée au RS :
+- Ces courriers constituent une **preuve d'engagement fort** : l'organisme croit suffisamment en ce projet pour investir dans le référencement malgré les refus
+- Ils démontrent que des financeurs (OPCO, CPF, Région) ont identifié le besoin mais ne pouvaient mobiliser les fonds sans le code RS
+- Format attendu : courrier officiel sur en-tête de l'OPCO/financeur, daté, signé, mentionnant explicitement le motif de refus lié à l'absence de référencement
+
+**Questions à poser :**
+1. Avez-vous déjà déposé des dossiers de financement refusés pour absence de référencement RS ?
+2. Avez-vous des courriers de refus d'OPCO ou de Région mentionnant ce motif ?
+3. Avez-vous des listes d'attente de candidats ou des demandes de formation non satisfaites ?
+
+---
+
 ## FORMAT DE LA SYNTHÈSE FINALE ÉTAPE 2
 
 ---
@@ -275,6 +332,14 @@ Parmi ces 4 objectifs, lesquels votre certification vise-t-elle en priorité ? I
 **Critère 1 ter — Objectifs de formation (L.6313-3)** :
 - Objectifs visés : [liste parmi les 4]
 - Illustration : [exemples concrets]
+
+**Certificateur** : [Unique / Co-certificateur - préciser groupement]
+**Obligations FC** : [Fiche descriptive à créer / Téléprocédure CERTIF PRO identifiée]
+
+**Documents d'accompagnement** :
+- Courrier RFC (intérêt stratégique de l'OF) : [Rédigé / À rédiger]
+- Positionnement RSE/territorial : [Documenté / À compléter]
+- Courriers de refus de financement : [Disponibles ([N] courriers) / Non disponibles]
 
 **Statut global** : [Prêt / À compléter - liste des manques]
 ---

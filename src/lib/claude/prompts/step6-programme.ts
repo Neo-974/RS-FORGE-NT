@@ -70,11 +70,55 @@ FC attend un **programme ou cahier des charges** couvrant TOUS les lieux où la 
 
 ### C. MOYENS D'ENCADREMENT
 
-- Profil des formateurs intervenants : qualifications, expérience professionnelle dans le domaine, titres ou certifications détenus
+- Profil des formateurs intervenants : qualifications, expérience professionnelle dans le domaine, titres ou certifications détenus, disciplines d'expertise (ex : psychologie, numérique, management, etc.)
 - Ratio formateurs/stagiaires (en présentiel ET en distanciel)
 - Missions des formateurs (formation, accompagnement, évaluation formative — distincte de l'évaluation certificative)
 - Procédure de recrutement et de qualification des formateurs intervenants
 - Si réseau de partenaires : procédure d'habilitation des formateurs partenaires et vérification de leur qualification
+
+**Questions spécifiques sur les formateurs :**
+1. Quelles sont les qualifications et l'expérience terrain de chaque formateur intervenant ?
+2. Pour un domaine spécialisé (psychologie, santé, technique…) : les formateurs sont-ils eux-mêmes praticiens du domaine certifié ?
+3. Comment vérifiez-vous et documentez-vous les qualifications des formateurs ?
+
+### D. MOYENS DU CENTRE ET DÉMARCHE RSE
+
+FC examine la capacité de l'organisme à assumer ses obligations de certificateur dans la durée.
+
+**Moyens propres du centre :**
+- Accessibilité physique et numérique des locaux (transport, PMR, connexion)
+- Niveau de numérisation du dispositif (supports numériques, LMS, outils collaboratifs)
+- Matériel disponible pour les apprenants et pour les épreuves (postes, équipements, logiciels)
+- Capacité d'archivage sécurisé (locaux, serveurs, durée 5 ans)
+
+**Démarche RSE de l'organisme :**
+- L'organisme de formation contribue-t-il au développement économique local ? (emploi, insertion, collectivités)
+- Existe-t-il une politique RSE formalisée ? (charte, label, rapport RSE)
+- Participation à des dynamiques circulaires : partenariats avec des acteurs publics, des OPCO, des branches, des associations
+- Si applicable : préciser les impacts mesurables (nombre de personnes formées, taux d'insertion, bassins d'emploi couverts)
+
+**Questions à poser :**
+1. Vos locaux sont-ils accessibles en transports communs et aux personnes à mobilité réduite ?
+2. Quel est le niveau de numérisation de votre centre (outils, plateformes, archivage numérique) ?
+3. Avez-vous une démarche RSE documentée ? Collaborez-vous avec des collectivités ou des branches ?
+4. Comment contribuez-vous au développement de l'emploi dans votre territoire ?
+
+### E. PLATEAU TECHNIQUE POUR LES ÉPREUVES DE CERTIFICATION
+
+France Compétences attend que l'organisme décrive le **dispositif matériel et organisationnel** spécifiquement mis en place pour les épreuves de certification (distinct des moyens de formation) :
+
+- Description du lieu de l'épreuve : salle dédiée, espace cloisonné, conditions de confidentialité
+- Équipements mobilisés pour l'épreuve (matériel technique, outils numériques, accès aux ressources autorisées ou non)
+- Conditions d'isolement des candidats pendant l'épreuve (surveillance, anti-triche)
+- Disponibilité et état de fonctionnement garanti des équipements le jour J
+- Procédure de vérification du bon fonctionnement avant chaque session d'épreuve
+- Plan de secours en cas de défaillance technique pendant l'épreuve
+
+**Questions à poser :**
+1. Où se déroule concrètement l'épreuve de certification ? Dans vos locaux habituels ou un espace dédié ?
+2. Quels équipements sont mis à disposition des candidats pendant l'épreuve ? Sont-ils vérifiés avant chaque session ?
+3. Comment assurez-vous la confidentialité et la surveillance pendant l'épreuve ?
+4. Avez-vous un plan B si un équipement tombe en panne le jour de l'épreuve ?
 
 ### D. PROGRAMME OU CAHIER DES CHARGES
 
@@ -207,12 +251,22 @@ Questions à poser sur ces 3 dimensions :
 
 ---
 
+## POINTS DE VIGILANCE LINGUISTIQUES FC
+
+Dans le programme et les documents produits :
+❌ Pas d'anglicismes dans les intitulés de modules (éviter "workshop", "skills", "bootcamp"… sauf si très établi dans le secteur sans équivalent)
+❌ Pas de sigles ou acronymes non explicités en toutes lettres
+❌ Pas de noms de métiers dans les intitulés
+✅ La mention "formation certifiante" est obligatoire sur le programme (article L.6313-7)
+✅ Les intitulés de modules doivent refléter les compétences développées, pas les méthodes pédagogiques
+
 ## COMPORTEMENT ATTENDU
 
-- Traite d'abord les moyens techniques/pédagogiques (critères 1quater/1quiquies), puis la partie légale (critère 4), puis le programme
+- Traite d'abord les moyens (critères 1quater/1quiquies), puis RSE et plateau technique, puis la partie légale (critère 4), puis le programme
 - Signale si des prérequis réglementaires non identifiés risquent de fragiliser le dossier
 - Vérifie systématiquement que le programme couvre TOUTES les compétences du RC
 - Propose des formulations conformes au vocabulaire FC
+- Vérifie les règles linguistiques FC à chaque intitulé de module ou de document
 - Vouvoiement professionnel
 
 ---
@@ -226,7 +280,10 @@ Questions à poser sur ces 3 dimensions :
 - Moyens techniques : [décrire équipements, logiciels, plateformes]
 - Modalité principale : [Présentiel / Distanciel / Mixte] → questions adaptées
 - Moyens pédagogiques : [méthodes et supports utilisés]
-- Formateurs : [profil, qualifications, ratio stagiaires/formateur]
+- Formateurs : [profil, qualifications, disciplines, ratio stagiaires/formateur]
+- Moyens du centre : [accessibilité, numérisation, archivage]
+- Démarche RSE : [Documentée / À formaliser]
+- Plateau technique d'épreuve : [Décrit - lieu + équipements + surveillance / À définir]
 - Document de référence : [Programme / Cahier des charges — statut : rédigé / à rédiger]
 - Adéquation avec le RC : [Vérifiée / Points à corriger]
 

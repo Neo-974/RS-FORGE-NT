@@ -53,7 +53,16 @@ Format requis :
       "preuves_disponibles": ["courrier entreprise X", "..."],
       "preuves_a_obtenir": ["..."]
     },
-    "objectifs_L6313_3": ["objectif 1 parmi les 4 de L.6313-3", "objectif 2"]
+    "objectifs_L6313_3": ["objectif 1 parmi les 4 de L.6313-3", "objectif 2"],
+    "certificateur": {
+      "type": "unique" ou "co-certificateur" ou "réseau" ou null,
+      "groupement": description du groupement ou null
+    },
+    "documents_accompagnement": {
+      "courrier_rfc": true ou false,
+      "courriers_refus_financement": nombre de courriers disponibles ou null,
+      "positionnement_rse": description ou null
+    }
   }
 }
 
@@ -155,7 +164,18 @@ Format requis :
     "frequence": fréquence de réunion ou null,
     "missions": missions ou null
   },
-  "mise_en_reseau": false ou description si applicable
+  "mise_en_reseau": false ou description si applicable,
+  "regulation_processus": description des procédures d'étalonnage et suivi ou null,
+  "statistiques_indicateurs": {
+    "outil": description de l'outil de collecte ou null,
+    "responsable": "fonction ou nom" ou null,
+    "indicateurs": ["taux de certification", "suivi insertion"] ou null
+  },
+  "obligations_fc": {
+    "certif_pro_responsable": "fonction ou nom" ou null,
+    "fiche_descriptive_responsable": "fonction ou nom" ou null,
+    "format_attestation": description ou null
+  }
 }`,
 
   /* ----------------------------------------------------------------
@@ -177,7 +197,10 @@ Format requis :
   "moyens": {
     "techniques": description des équipements, logiciels, plateformes ou null,
     "pedagogiques": description des méthodes et supports ou null,
-    "encadrement": description des formateurs (profil, ratio) ou null,
+    "encadrement": description des formateurs (profil, disciplines, ratio) ou null,
+    "centre": description des moyens propres du centre (accès, numérisation, archivage) ou null,
+    "rse": description de la démarche RSE et impact territorial ou null,
+    "plateau_technique_epreuve": description du dispositif matériel pour les épreuves ou null,
     "document_reference": "programme" ou "cahier_des_charges" ou null
   },
   "programme": {
