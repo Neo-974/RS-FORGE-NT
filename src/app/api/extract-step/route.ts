@@ -118,6 +118,21 @@ async function saveExtractedData(
       const update: Record<string, unknown> = {};
       if (data.uniqueness_score != null) update.uniqueness_score = data.uniqueness_score;
       if (data.uniqueness_analysis)      update.uniqueness_analysis = data.uniqueness_analysis;
+
+      /* Nouveaux champs — certificateur et documents d'accompagnement */
+      const analysis = data.uniqueness_analysis as Record<string, unknown> | undefined;
+      if (analysis?.certificateur) {
+        const cert = analysis.certificateur as Record<string, unknown>;
+        if (cert.type) update.certificateur_type = cert.type;
+        if (cert.groupement) update.reseau_partenaires = cert.groupement;
+      }
+      if (analysis?.documents_accompagnement) {
+        const docs = analysis.documents_accompagnement as Record<string, unknown>;
+        if (docs.courrier_rfc != null)               update.courrier_rfc       = docs.courrier_rfc;
+        if (docs.courriers_refus_financement != null) update.courriers_refus   = docs.courriers_refus_financement;
+        if (docs.positionnement_rse)                  update.positionnement_rse = docs.positionnement_rse;
+      }
+
       if (Object.keys(update).length > 0) {
         await supabase.from("projects").update(update).eq("id", projectId);
       }
@@ -196,14 +211,31 @@ async function saveExtractedData(
       break;
     }
 
-    /* Étapes 5 et 6 — Contenu sauvé dans project_steps.content */
-    case 5:
+    /* Étape 5 — Contenu sauvé dans project_steps.content */
+    case 5: {
+      await supabase
+        .from("project_steps")
+        .update({ content: data })
+        .eq("project_id", projectId)
+        .eq("step_number", stepNumber);
+      break;
+    }
+
+    /* Étape 6 — Contenu sauvé dans project_steps.content + moyens_of dans projects */
     case 6: {
       await supabase
         .from("project_steps")
         .update({ content: data })
         .eq("project_id", projectId)
         .eq("step_number", stepNumber);
+
+      /* Sauvegarde les moyens OF dans projects pour accès rapide lors de la génération */
+      if (data.moyens) {
+        await supabase
+          .from("projects")
+          .update({ moyens_of: data.moyens })
+          .eq("id", projectId);
+      }
       break;
     }
   }
