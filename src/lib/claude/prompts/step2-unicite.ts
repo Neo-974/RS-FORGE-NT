@@ -164,6 +164,78 @@ Fait pour servir et valoir ce que de droit.
 - Pouvez-vous obtenir 2-3 courriers d'entreprises formatés correctement ? (utilise le modèle ci-dessus)
 - Format attendu des courriers : logo/en-tête, date récente (≤12 mois), signataire identifié, bénéfices chiffrés
 
+---
+
+## 3 bis. PLAN D'ACTION — COLLECTE DES PREUVES DE VALEUR D'USAGE (module guidé)
+
+Ce module aide l'ingénieur pédagogique à constituer son dossier de preuves de manière méthodique, avant le dépôt.
+
+### Étape A — Cartographie des acteurs à contacter
+
+Guide l'utilisateur pour identifier ses interlocuteurs prioritaires :
+
+**Acteurs de l'emploi (priorité 1 — poids fort dans le dossier) :**
+- Branches professionnelles du secteur visé : qui contacter ? (secrétaire de la CPNE, délégué de branche)
+- OPCO couvrant le secteur : quel OPCO ? quel interlocuteur ? (chargé de mission formation)
+- Observatoires de branches : ont-ils publié des études sur ce domaine de compétences ?
+- France Travail / APEC locaux : ont-ils des données sur les besoins en recrutement pour ce métier ?
+
+**Entreprises utilisatrices (priorité 2 — preuves terrain) :**
+- Entreprises ayant déjà financé ou accueilli des stagiaires sur ce type de formation
+- Clients ou ex-clients de l'organisme dans ce domaine
+- Partenaires professionnels (prestataires, sous-traitants) qui utilisent ces compétences
+
+**Institutions et collectivités :**
+- Conseil Régional (service formation professionnelle)
+- DREETS (ex-DIRECCTE) si domaine réglementé
+- Collectivités locales partenaires (mairies, intercommunalités)
+
+### Étape B — Modèle de démarche de collecte (script d'approche)
+
+Propose ce script à l'utilisateur pour contacter ses interlocuteurs :
+
+\`\`\`
+Objet : Demande de soutien pour un projet de certification professionnelle
+
+Madame, Monsieur,
+
+Dans le cadre du développement de notre offre de certification professionnelle, nous
+préparons un dossier de demande d'enregistrement au Répertoire Spécifique (RS) de
+France Compétences pour la certification :
+
+"[Intitulé de la certification]"
+
+Cette certification vise à reconnaître les compétences suivantes :
+[Liste des 3 principales compétences en une phrase chacune]
+
+Nous souhaiterions obtenir, si possible, un courrier ou une attestation de votre
+structure confirmant :
+- Les besoins en compétences de ce type que vous identifiez sur le marché
+- Le nombre de personnes formées/certifiées si applicable
+- Les bénéfices observés sur vos équipes ou votre secteur
+
+Un modèle de courrier est disponible sur simple demande.
+
+Cordialement,
+[Nom + Fonction + Organisme]
+\`\`\`
+
+### Étape C — Suivi et relance des preuves
+
+Aide l'utilisateur à suivre l'avancement de sa collecte :
+
+| Type de preuve | Interlocuteur ciblé | Statut | Date de relance |
+|---|---|---|---|
+| Courrier entreprise | [Nom société] — [DRH] | À contacter | [date] |
+| Courrier OPCO | [Nom OPCO] — [Chargé de mission] | En attente | [date] |
+| Étude de branche | [Observatoire] | Téléchargée ✓ | — |
+| Données offres emploi | France Travail / Indeed | À analyser | [date] |
+
+**Cibles minimum recommandées pour un dossier solide :**
+- 2 courriers d'entreprises utilisatrices (avec données chiffrées)
+- 1 courrier ou déclaration d'un acteur de l'emploi (branche, OPCO, institution)
+- 2 sources statistiques externes (BMO, DARES, observatoire de branche)
+
 ### Concept "Fiche 18" (référence interne FC) :
 France Compétences utilise une trame de vérification appelée communément "Fiche 18" pour évaluer le critère 1. Elle croise :
 - La réalité du besoin (sources quantitatives)
