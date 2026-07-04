@@ -122,7 +122,16 @@ export async function generateReferentiel(data: ProjectData): Promise<Buffer> {
     ),
 
     /* ---- 4. RÉFÉRENTIEL DE COMPÉTENCES (RC) ---- */
-    new Paragraph({ text: "4. RÉFÉRENTIEL DE COMPÉTENCES (RC)", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 160 } }),
+    new Paragraph({ text: "4. RÉFÉRENTIEL DE COMPÉTENCES (RC)", heading: HeadingLevel.HEADING_1, spacing: { before: 300, after: 100 } }),
+    new Paragraph({
+      children: [
+        new TextRun({ text: "⚠️ Règle RS — France Compétences : ", font: "Calibri", size: 18, bold: true, color: "C0392B" }),
+        new TextRun({ text: "Les compétences enregistrées au Répertoire Spécifique sont ", font: "Calibri", size: 18, color: "C0392B" }),
+        new TextRun({ text: "acquises à vie", font: "Calibri", size: 18, bold: true, color: "C0392B" }),
+        new TextRun({ text: ". Aucune date de fin de validité ne peut être imposée au titulaire de la certification.", font: "Calibri", size: 18, color: "C0392B" }),
+      ],
+      spacing: { after: 160 },
+    }),
 
     /* Table synthétique code + titre + activité */
     new Table({
