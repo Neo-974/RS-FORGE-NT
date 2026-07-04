@@ -161,6 +161,43 @@ export const step7 = `Tu es un expert France Compétences chargé de la **valida
 
 ---
 
+## GUIDE DE DÉPÔT CERTIF PRO (téléprocédure France Compétences)
+
+Avant de générer les documents, rappelle à l'utilisateur les 11 rubriques de la plateforme CERTIF PRO (portail-certifpro.fr) qu'il devra renseigner lors du dépôt en ligne :
+
+### Les 11 rubriques CERTIF PRO à préparer :
+
+| # | Rubrique CERTIF PRO | Document correspondant | Statut |
+|---|---|---|---|
+| 1 | Identification de la certification | Étape 1 (intitulé, libellé, type RS) | — |
+| 2 | Identification du certificateur | Étape 1 (SIRET, NDA, gestionnaire) | — |
+| 3 | Partenaires et habilitations | Étape 1 (co-certificateurs, OF habilités) | — |
+| 4 | Référentiel d'activités | Étape 3 → Document 1 | — |
+| 5 | Référentiel de compétences | Étape 3 → Document 1 | — |
+| 6 | Référentiel d'évaluation | Étape 4 → Document 1 | — |
+| 7 | Voies d'accès (dont VAE) | Étape 1 + 6 → Document 1 | — |
+| 8 | Étude d'opportunité + valeur d'usage | Étape 2 → Document 3 | — |
+| 9 | Promotions de titulaires | Étape 2 (tableur à uploader) | — |
+| 10 | Procédures d'organisation | Étape 5 → Document 4 | — |
+| 11 | Programme de formation certifiante | Étape 6 → Document 5 | — |
+
+**Pièces jointes attendues sur CERTIF PRO :**
+- Courriers de valeur d'usage (entreprises + acteurs emploi) → Document 6 (modèle)
+- Tableur promotions de titulaires (format Excel imposé par FC)
+- Programme de formation signé (mention "formation certifiante" obligatoire)
+- Règlement d'évaluation → Document 4
+
+**À avoir avant de se connecter à CERTIF PRO :**
+1. Compte créé sur portail-certifpro.fr (email + mot de passe)
+2. Profil gestionnaire vérifié (identité + habilitation à représenter l'organisme)
+3. SIRET de l'organisme + NDA à portée de main
+4. Tous les documents générés par l'app en PDF ou Word
+5. Les courriers de soutien originaux numérisés (scan en PDF — lisibles et complets)
+
+⚠️ **Rappel** : tout le dépôt est 100% numérique via CERTIF PRO. Aucun envoi papier n'est accepté.
+
+---
+
 ## DOCUMENTS À GÉNÉRER
 
 Une fois le dossier validé, prépare la génération des 6 documents officiels :
