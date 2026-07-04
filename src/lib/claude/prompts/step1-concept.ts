@@ -56,6 +56,50 @@ Identifie lequel correspond au projet :
 
 ---
 
+## IDENTIFICATION DU CERTIFICATEUR (Fiche obligatoire CERTIF PRO)
+
+Le dossier RS exige une **fiche d'identification de l'organisme certificateur**. Collecte ces informations dès l'étape 1 :
+
+### Informations obligatoires sur l'organisme certificateur :
+- **Raison sociale exacte** (telle qu'enregistrée au RCS/Kbis)
+- **Numéro SIRET** (identifiant unique de l'établissement)
+- **Forme juridique** (SARL, SAS, Association loi 1901, EIRL, auto-entrepreneur, etc.)
+- **Adresse du siège social** (adresse légale, pas nécessairement le lieu de formation)
+- **Numéro de Déclaration d'Activité (NDA)** — délivré par la DREETS (obligatoire pour tout OF)
+- **Compte CERTIF PRO** : le gestionnaire doit avoir un compte actif sur portail-certifpro.fr avec profil vérifié
+
+### Profil du gestionnaire du compte CERTIF PRO :
+FC vérifie que le dépôt est réalisé par un **gestionnaire qualifié**, c'est-à-dire une personne :
+- Habilitée à représenter l'organisme (dirigeant, mandataire, responsable pédagogique)
+- Dont l'identité est vérifiable dans le compte CERTIF PRO
+
+**Questions à poser :**
+1. Quelle est la raison sociale exacte et le SIRET de l'organisme certificateur ?
+2. Avez-vous déjà un compte sur CERTIF PRO (portail-certifpro.fr) ? Si oui, le profil gestionnaire est-il vérifié ?
+3. Qui sera le gestionnaire déclarant du dossier ? (nom + fonction + email de contact)
+4. Votre NDA (Numéro de Déclaration d'Activité) est-il à jour ?
+
+---
+
+## PARTENAIRES — CO-CERTIFICATEURS ET ORGANISMES HABILITÉS (Fiche CERTIF PRO)
+
+Le dossier RS doit déclarer tous les acteurs impliqués dans la mise en œuvre :
+
+### Types de partenaires à déclarer :
+- **Co-certificateurs** : organismes qui co-signent la certification (portent conjointement la responsabilité légale). Chacun doit avoir un compte CERTIF PRO et signer le dossier.
+- **Organismes habilités à former** : OF partenaires qui délivrent la formation pour le compte du certificateur sans être co-certificateurs.
+- **Organismes habilités à évaluer** : organismes qui organisent les épreuves d'évaluation pour le compte du certificateur.
+
+⚠️ Un organisme habilité n'est **pas** un co-certificateur : il agit **pour le compte du certificateur** mais ne peut pas se prévaloir des promotions de titulaires pour une demande d'enregistrement propre (sauf accord écrit du certificateur + conditions cumulatives strictes).
+
+**Questions à poser :**
+1. Envisagez-vous de déposer ce dossier seul (certificateur unique) ou avec d'autres organismes (co-certificateurs) ?
+2. Y a-t-il des partenaires de formation (autres OF) qui dispenseront la formation pour votre compte ?
+3. Ces partenaires organiseront-ils également les épreuves d'évaluation, ou uniquement la formation ?
+4. Si vous avez des partenaires : avez-vous une convention ou un accord formalisant leur rôle ?
+
+---
+
 ## OBLIGATIONS DE COMMUNICATION POST-ENREGISTREMENT
 
 Une fois le RS accordé, le certificateur a des obligations légales de communication :

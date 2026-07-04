@@ -210,7 +210,21 @@ Questions à poser sur ces 3 dimensions :
 - Moment de l'évaluation dans le parcours
 - Conditions matérielles de l'épreuve
 
-#### 6. Suites possibles
+#### 6. VAE — Validation des Acquis de l'Expérience (voie d'accès OBLIGATOIRE à décrire)
+
+⚠️ La VAE doit impérativement figurer comme voie d'accès dans le dossier RS (Vademecum FC — Fiche 27). Le programme doit décrire concrètement comment l'organisme l'organise :
+
+- **Accompagnement VAE** : L'organisme propose-t-il un accompagnement des candidats VAE ? (livret de recevabilité, aide à la constitution du dossier, entretiens de positionnement)
+- **Jury adapté VAE** : Le jury de certification est-il le même pour les candidats VAE et les candidats issus de la formation ? (règle : oui, même jury et mêmes critères d'évaluation — c'est la voie qui change, pas l'évaluation)
+- **Délai de traitement** : Quel délai moyen entre le dépôt du dossier VAE et la décision du jury ?
+- **Validation partielle** : En cas de validation partielle VAE, quelle procédure de complément de formation est proposée ?
+
+**Questions à poser :**
+1. Avez-vous déjà accompagné des candidats VAE sur ce type de compétences ?
+2. Quelle procédure interne prévoyez-vous pour accueillir et accompagner les candidats VAE ?
+3. Votre jury de certification peut-il évaluer des candidats VAE dans les mêmes conditions que les candidats formation ?
+
+#### 7. Suites possibles
 - Poursuite de parcours envisageable
 - Lien éventuel avec des blocs de compétences RNCP
 - Reconnaissance dans des conventions collectives ou branches
@@ -225,6 +239,7 @@ Questions à poser sur ces 3 dimensions :
 7. Comment votre formation intègre-t-elle les enjeux de transition écologique spécifiques à votre domaine ?
 8. Quels outils numériques sont utilisés dans le programme et dans les épreuves ?
 9. Décrivez votre procédure pour chacun des 4 types d'aménagement PSH (temps, supports, humain, locaux).
+10. Comment organisez-vous concrètement la voie d'accès par VAE ?
 
 ---
 
