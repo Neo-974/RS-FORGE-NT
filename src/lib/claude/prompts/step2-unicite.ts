@@ -204,6 +204,18 @@ Guide l'utilisateur pour saisir les données de chaque promotion directement dan
 4. Pour chaque certifié : quelle était leur situation AVANT et APRÈS la certification ? (poste, évolution)
 5. Avez-vous des données d'insertion à 3 mois ou 6 mois ? (enquête, suivi email, entretien)
 
+**Métriques officielles d'insertion (taux cibles FC, Vademecum 2026) :**
+Le suivi est demandé au plus tard à **6 mois** après l'obtention de la certification, avec possibilité de complément à 2 ans.
+- **Taux d'insertion dans le métier visé** = Nombre de certifiés en emploi dans le métier / nombre de certifiés (hors neutralisés)
+- **Taux d'insertion global dans l'emploi** = Nombre de certifiés en emploi (tout emploi) / nombre de certifiés (hors neutralisés)
+- Personnes neutralisées du calcul : poursuites d'études, personnes en impossibilité temporaire/définitive d'exercer
+
+**🏝️ RÈGLE DROM / TERRITOIRE INSULAIRE (avantage La Réunion) :**
+Le Vademecum 2026 mentionne explicitement que la taille critique des promotions est **contextualisée** si le métier visé s'exerce pour partie selon des modalités spécifiques à un territoire, **a fortiori sur un territoire insulaire ou un territoire ultra-marin**. Pour un organisme basé à La Réunion, une promotion de taille limitée (5-10 stagiaires) peut être jugée suffisamment représentative du bassin d'emploi local — à condition d'en justifier explicitement le contexte territorial. Mentionner ce contexte insulaire dans l'étude d'opportunité renforce la recevabilité du dossier.
+
+**Pour une PREMIÈRE demande RS (pas de certification existante) :**
+Les promotions peuvent provenir d'une **formation à vocation certifiante** mise en œuvre sur la base d'un référentiel de compétences ET sanctionnée par un référentiel d'évaluation — même si la certification n'est pas encore inscrite au RS. Ce lien avec le projet de certification doit être établi clairement dans le dossier.
+
 **⚠️ AVERTISSEMENT NON-BLOQUANT — cas "aucune promotion disponible" :**
 Si l'utilisateur n'a pas encore de promotions, affiche cet avertissement et laisse continuer :
 

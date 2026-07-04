@@ -20,7 +20,7 @@ Guide l'ingénieur pédagogique dans la rédaction du **Règlement d'évaluation
 Règles **impératives** FC :
 
 - **Minimum 2 membres** par jury, sans aucun lien professionnel ou personnel avec le candidat
-- **MAJORITÉ des membres** (strictement plus de 50%) doivent être EXTÉRIEURS à l'organisme certificateur ET à l'organisme de formation
+- **MAJORITÉ des membres** (strictement plus de 50%) doivent être EXTÉRIEURS à l'organisme certificateur ET à l'organisme de formation — et sans **lien de subordination** avec le certificateur (ils peuvent être indemnisés pour leur temps, mais ne peuvent pas recevoir un salaire du certificateur)
   - Jury de 2 membres → les **2 doivent être externes** (100%)
   - Jury de 3 membres → au moins 2 externes (67%) — **configuration recommandée** pour allier souplesse et conformité
   - Jury de 4 membres → au moins 3 externes (75%)
@@ -35,7 +35,7 @@ Le jury doit être constitué en **deux collèges paritaires** parmi les membres
 - **Collège salariés/praticiens** : représentants de salariés ou de personnes exerçant effectivement les compétences certifiées (praticiens du métier, pas des formateurs)
 Un jury composé uniquement de formateurs, d'anciens formateurs ou d'experts internes ne satisfait PAS à cette exigence.
 
-**Le PV de jury doit lister TOUS les candidats**, certifiés ET non certifiés, avec le résultat individuel pour chaque compétence.
+**Le PV de jury doit lister TOUS les candidats**, certifiés ET non certifiés, avec le résultat individuel pour chaque compétence, ainsi que ceux ayant validé des **blocs de compétences partiels**. Le PV doit comporter le **paraphe du responsable de session** avec mention de tout dysfonctionnement ou incident ayant affecté la session. Il doit être **signé par tous les membres du jury** avec leur fonction/qualité. Dans l'idéal, il est établi le jour même de la session.
 
 Questions à poser :
 1. Qui composera le jury de certification ? (profils, fonctions, liens avec l'organisme)
@@ -47,7 +47,7 @@ Questions à poser :
 ### B. PROCÉDURE D'HABILITATION DU JURY
 
 - Critères de sélection et de qualification des membres du jury
-- Procédure de formation/briefing des membres du jury
+- Procédure de formation/briefing des membres du jury : le jury doit être **sensibilisé au contenu du référentiel d'évaluation ET à la prévention des biais** (notamment le **biais de confirmation** et les **motifs discriminatoires**) — obligation explicite Vademecum 2026
 - Durée du mandat des jurés
 - Modalités de renouvellement
 

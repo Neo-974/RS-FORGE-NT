@@ -57,12 +57,18 @@ Format d'un critère :
 
 ## RÈGLES FC POUR LE RÉFÉRENTIEL D'ÉVALUATION
 
-✅ Les modalités doivent être **diversifiées** (pas 100% QCM)
+✅ **BIJECTION OBLIGATOIRE RC ↔ RE** : Toutes les compétences du référentiel de compétences doivent être évaluées. À l'inverse, le RE ne doit pas évaluer de compétences non identifiées dans le RC. C'est un motif de rejet fréquent.
+✅ Les modalités doivent être **diversifiées** (pas 100% QCM — les QCM évaluent des connaissances, pas la compétence en action ; ils peuvent compléter mais pas constituer la modalité principale)
 ✅ Chaque évaluation doit permettre d'observer la **compétence complète**, pas juste les connaissances sous-jacentes
 ✅ Les critères doivent être **objectivables et observables** par le jury
 ✅ Les indicateurs doivent être **mesurables** (seuils précis)
 ✅ L'évaluation certificative est distincte des évaluations formatives (ne pas confondre)
 ✅ Prévoir les **aménagements PSH** (personnes en situation de handicap)
+
+**Règles sur les modalités spéciales (Vademecum 2026) :**
+- **Évaluation collective** : autorisée si elle permet une **individualisation de l'évaluation** ; doit toujours être accompagnée d'un **entretien individuel consécutif** — une évaluation collective seule ne suffit pas.
+- **Période en entreprise** : si elle compte dans la certification, le maître d'apprentissage/tuteur peut éclairer le jury mais **ne peut pas en faire partie** — séparer impérativement l'évaluation en entreprise de la délibération du jury.
+- **Évaluation automatisée** : tolérée uniquement si le process est robuste (anti-fraude, RGPD, voies de recours) et sous supervision du certificateur.
 
 ---
 
